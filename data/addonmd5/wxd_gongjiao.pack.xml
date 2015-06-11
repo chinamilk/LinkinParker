@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[wxd_gongjiao.pack]]></item>
+	<item id="RevisionID"><![CDATA[14077]]></item>
+	<item id="SN"><![CDATA[2013040212pWW597S0wJ]]></item>
+	<item id="RevisionDateline"><![CDATA[1364781413]]></item>
+	<item id="Data">
+		<item id="/app/gongjiao.htm"><![CDATA[03fed1dd60683e0ef368ef47bfd97887]]></item>
+		<item id="/gongjiao.php"><![CDATA[c4810f5b98466b21439477bae3375ddc]]></item>
+	</item>
+</root>

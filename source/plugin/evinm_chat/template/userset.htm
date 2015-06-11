@@ -1,0 +1,91 @@
+<!--{template common/header}-->
+<script type="text/javascript" src="source/plugin/evinm_chat/js/jquery.vticker-min.js"></script>
+<script language="javascript">	var jq = jQuery.noConflict();</script>
+<script type="text/javascript">	
+
+		jq(".changemyset").click(function(){
+			var trsethide = jq("#ztset");
+			if(trsethide.is(":visible")) {
+				trsethide.addClass("sethide");
+			}else{
+				trsethide.removeClass("sethide");
+			}
+		})
+		
+		jq("#usersetform").submit( function () {			
+			var cszt = jq("input[name=cszt]:checked").val();			
+			var sexy = jq("input[name=showsexy]:checked").val();			
+			showWindow('cl','plugin.php?id=evinm_chat:userset_do&acszt='+cszt+'&sexy='+sexy,'get','0');			
+			return false;
+		} );
+
+</script>
+<div class="bm bw0">
+	<div class="efloat">
+		<h3 class="flb" style="padding:0">
+			<em id="return_message">{lang evinm_chat:gxsz}</em>
+			<!--{if $_G[inajax]}-->
+			<span><a href="javascript:;" class="flbc" onclick="hideWindow('userset')" title="{lang close}">{lang close}</a></span>
+			<!--{/if}-->
+		</h3>
+		<div class=" cl mbm">
+			<form method="post" autocomplete="off" id="usersetform" action="" >
+				<div class="floatwrap">
+					<div class="c" style="display: block;">
+						<table>
+						<tr>
+							<td><label>{lang evinm_chat:cszt}</label></td>
+							
+							<td><span class="dqszts">{lang evinm_chat:dqgrsz}"<!--{if $userset['iszhankai'] == '0'}-->{lang evinm_chat:mrgb}<!--{elseif $userset['iszhankai'] == '1'}-->{lang evinm_chat:mrzk}<!--{elseif $config['iszhankai'] == '1'}-->{lang evinm_chat:mrzk}<!--{elseif $config['iszhankai'] == '0'}-->{lang evinm_chat:mrgb}<!--{/if}-->"</span><span class="changemyset" ></div> <span>{lang evinm_chat:ggwdsz}</span></td>
+                        </tr>
+						<tr id="ztset" class="sethide">
+							<td></td> 
+							<td>
+								<div class="width_h">
+									<input type="radio" name="cszt" value="1"  <!--{if $userset['iszhankai'] == '1'}--> checked="checked" <!--{/if}--> />{lang evinm_chat:mrzk}  
+								</div>
+								<div class="width_h">
+									<input type="radio" name="cszt" value="0"  <!--{if $userset['iszhankai'] == '0'}--> checked="checked"<!--{/if}--> />{lang evinm_chat:mrgb}
+								</div>
+							</td>
+                        </tr>
+						<tr>
+							<td><label>{lang evinm_chat:sexy}</label></td> 
+							<td><a href="home.php?mod=spacecp" target="_blank">{lang evinm_chat:dgrzlysz}</a></td>
+						</tr>
+						<tr>
+							<td><label>{lang evinm_chat:xsxb}</label></td> 
+							<td>
+								<div class="width_h">
+									<input type="radio" name="showsexy" value="1"  <!--{if $userset['showsexy'] == '1'}--> checked="checked" <!--{/if}--> />{lang evinm_chat:xianshi}  
+								</div>
+								<div class="width_h">
+									<input type="radio" name="showsexy" value="0"  <!--{if $userset['showsexy'] == '0'}--> checked="checked"<!--{/if}--> />{lang evinm_chat:buxianshi} 						 
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>							
+							<button type="submit" name="setbtn" id="setbtn" value="true" class="pn pnc"><strong>{lang evinm_chat:baocun}</strong></button>
+							</td>
+						</tr>
+						</table>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<style type="text/css">
+.efloat {width:400px;padding:15px;padding-bottom:0;}
+.floatwrap {margin-top:20px;overflow: auto;overflow-x: hidden; padding-top:15px; border-top: 1px solid #CDCDCD;height: auto;}
+.floatwrap .c td {height:40px;}
+.floatwrap .c label{width:100px;display:block;}
+.setbtn {padding:}
+.sethide {display:none;}
+.changemyset {color:#369;cursor: pointer;display:inline-block; padding-left:10px;}
+.width_h {width:50%;float:left;}
+</style>
+<!--{template common/footer}-->

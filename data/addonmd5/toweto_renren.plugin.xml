@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[toweto_renren.plugin]]></item>
+	<item id="RevisionID"><![CDATA[3811]]></item>
+	<item id="SN"><![CDATA[2013033111yYYf9uZbju]]></item>
+	<item id="RevisionDateline"><![CDATA[1347363032]]></item>
+	<item id="Data">
+		<item id="/discuz_plugin_toweto_renren_SC_GBK.xml"><![CDATA[9e689f9fa57f7659f13fde064fc85bdd]]></item>
+		<item id="/template/images/back-tip.png"><![CDATA[f2406b24ff62f6b38b4ad6a85c19bd73]]></item>
+		<item id="/template/images/btt.png"><![CDATA[2d737838aac7af8045cc356e9c02225d]]></item>
+		<item id="/template/images/find.png"><![CDATA[af846c6800a0a54a5cf717e34bb086a1]]></item>
+		<item id="/template/images/gear-icons.png"><![CDATA[76d8556c222e2a01c15d9b96f8b37ec5]]></item>
+		<item id="/template/images/no.png"><![CDATA[392c2b79e5343d937b004916df23ecde]]></item>
+		<item id="/template/images/t1.png"><![CDATA[5b27d9a4ff5b984307d30585fa6594d9]]></item>
+		<item id="/template/images/toweto.css"><![CDATA[7ee152f36935c01cdf0c9a00d2ea24a5]]></item>
+		<item id="/template/images/wp-base-ico.png"><![CDATA[964c9d1ed0584cd249ff968ccb8b7510]]></item>
+		<item id="/template/index.htm"><![CDATA[d41d8cd98f00b204e9800998ecf8427e]]></item>
+		<item id="/template/toweto.htm"><![CDATA[bba926191b425614e87afd5a092a3a0c]]></item>
+		<item id="/template/toweto_renren.htm"><![CDATA[3bf746b00069488108b95a3c6f163b4f]]></item>
+		<item id="/toweto.inc.php"><![CDATA[2bf19de4b3ad43ea2758133badd281c0]]></item>
+		<item id="/toweto_renren.class.php"><![CDATA[ba78bf2dbb5ee0c6aedcd7cf17ae6cbb]]></item>
+	</item>
+</root>

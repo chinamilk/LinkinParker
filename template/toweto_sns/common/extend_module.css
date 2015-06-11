@@ -1,0 +1,47 @@
+
+
+/** forum::index,forum::forumdisplay,home::space,forum::guide **/
+/* °æ¿éÁÐ±í by toweto 1203081623 */
+.fl.bm {
+    border: medium none;
+}
+.fl .bm_h {
+    background: url("{STYLEIMGDIR}/bg_title_bbs.png") repeat-x scroll 0 0 #F2F2F2;
+    border-radius: 5px 5px 0 0;
+    margin: 15px 0 0;
+	 height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    padding: 0 10px;
+	border:none;
+	    border: 1px solid #CCCCCC !important;
+
+}
+#online .bm_h {
+    background: url("{STYLEIMGDIR}/bg_title_bbs.png") repeat-x scroll 0 0 #F2F2F2;
+    border-radius: 5px 5px 0 0;
+	 height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    padding: 0 10px;
+}
+.fl .bm_c {
+
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color #CCCCCC #CCCCCC;
+    border-image: none;
+    border-radius: 0 0 5px 5px;
+    border: 1px solid #CCCCCC;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    box-shadow: 0 1px 3px #DDDDDD;
+    margin: 0;
+	   
+}
+.bm_h h2 a {
+    font-size: 17px;
+}
+/** end **/

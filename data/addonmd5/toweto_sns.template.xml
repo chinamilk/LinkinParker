@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[toweto_sns.template]]></item>
+	<item id="RevisionID"><![CDATA[5111]]></item>
+	<item id="SN"><![CDATA[2013033102oA4n04w675]]></item>
+	<item id="RevisionDateline"><![CDATA[1361771411]]></item>
+	<item id="Data">
+		<item id="/common/diy_footer.htm"><![CDATA[fb10bad1d54e674a110394c28bd4ae56]]></item>
+		<item id="/common/diy_header.htm"><![CDATA[658fb6b3595180693d24b4e62d246c34]]></item>
+		<item id="/common/extend_common.css"><![CDATA[2910af4180954b68334db643a5f3d2d7]]></item>
+		<item id="/common/extend_module.css"><![CDATA[835da3f14fca58a2a2903ce251ba8432]]></item>
+		<item id="/common/footer.htm"><![CDATA[3beb672bdff66820db5662a146548a7d]]></item>
+		<item id="/common/header.htm"><![CDATA[fbbd883c1c0fb5b986fb2bef57406cc3]]></item>
+		<item id="/discuz_style_sns.xml"><![CDATA[aad4bc6a384637a9b7067ee67ec9d87b]]></item>
+		<item id="/forum/discuz.htm"><![CDATA[44912edaf43ef7e7a409eedf4b98274a]]></item>
+		<item id="/forum/forumdisplay.htm"><![CDATA[aad7ed2bfdf2bddb586fcf13c6ac805c]]></item>
+		<item id="/image/bg_title_bbs.png"><![CDATA[0988187f14165dadbb7dbec0ecc77581]]></item>
+		<item id="/image/btt.png"><![CDATA[2d737838aac7af8045cc356e9c02225d]]></item>
+		<item id="/image/forum.gif"><![CDATA[7ed5c3cc0de4fc15220b94d9a16d416b]]></item>
+		<item id="/image/forum_new.gif"><![CDATA[979813728e895d30102d17377a74fa0a]]></item>
+		<item id="/image/global_nav_bg.png"><![CDATA[fafbdf3905561b32c70948c7e67773dd]]></item>
+		<item id="/image/ico_sidebar.png"><![CDATA[ef26455d689b1760357160bad03fcd88]]></item>
+		<item id="/image/login_sprite.png"><![CDATA[77c83948ad042990708604367f21d022]]></item>
+		<item id="/image/logo.png"><![CDATA[67713eef13abac53dfabcad1911b6ece]]></item>
+		<item id="/image/qq_login.gif"><![CDATA[7b1f74c5bdbf2ba79bcc76d67320b79b]]></item>
+		<item id="/image/search.png"><![CDATA[d1087475a9d3bbad54b4e29be144436d]]></item>
+		<item id="/image/transparent.gif"><![CDATA[046c7604a84c0768ef44c7afc2dff647]]></item>
+		<item id="/image/vlineb.png"><![CDATA[868dba5ea6ba24c8f3e96e48a3dc5246]]></item>
+		<item id="/preview.jpg"><![CDATA[5315cc90f7ba76741acae3c710e6d405]]></item>
+		<item id="/preview_large.jpg"><![CDATA[d072d711d4cf6725b4141b6710a577e4]]></item>
+	</item>
+</root>

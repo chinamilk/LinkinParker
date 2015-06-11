@@ -1,0 +1,389 @@
+/** css**/
+/**图片路径background-image: url({STYLEIMGDIR}/arrwd.png)**/
+
+
+#hd {
+    background: none repeat-x scroll 0 0 #3B5998;
+    height: 40px;
+    margin-bottom: 10px;
+	max-height:200px;
+}
+
+#chart {
+    background-color: #FFFFFF;
+    border: 1px solid #DFDFDF !important;
+    padding: 20px;
+}
+#pt {
+
+}
+
+.fl {
+    background: none repeat scroll 0 0;
+}
+
+#hd h2 {
+    float: left;
+    padding: 0 0px 8px 0;
+}
+
+#hd .wp {
+    padding:0;
+	height:40px;
+	margin-top:0px;
+	
+
+}
+#nv, #mu {
+    border-left:none !important;
+    border-right: none !important;
+}
+
+
+.hdc {
+min-height: 440px;
+}
+#login {cursor: pointer; float:right; margin-top:5px;}
+#login img{    background: none;
+    display: inline-block;
+    height: 24px;
+    vertical-align: middle;
+    width: 77px;}
+#login_menu { width:74px !important; min-width: 74px;top:34PX !IMPORTANT; position:absolute;left:50% !important; margin-left:403px  !important;}	
+/*搜索*/
+#search {
+    background-position: 0 -154px;
+    float: left;
+    line-height: 23px;
+    margin: 10px 10px 0 0;
+	background:  url("{STYLEIMGDIR}/search.png") no-repeat scroll 0 0 transparent;
+	width:200px;
+}
+
+
+.search-key {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    float: left;
+    height: 18px;
+    line-height: 18px;
+    padding: 3px 5px;
+    width: 156px;
+}
+
+.search-btn {
+    color: #666666;
+    float: right;
+    text-align: center;
+    width: 30px;
+	font-size:0px;
+}
+
+/*顶部导航*/
+.toweto_css_header  #nv{ 
+background:none;    
+float: left;
+padding: 0 10px 8px 0;
+height:40px;}
+
+.toweto_css_header	#nv li {
+    background-image: none !important;
+	    font-size: 14px;
+    font-weight:lighter;
+    line-height: 40px;
+}
+#nv li {
+    background-image: none !important;
+	    font-size: 14px;
+    font-weight:lighter;
+    line-height: 40px;
+}
+#nv li a{height:40px;}
+#nv li a:hover {
+ background-color: #3D5EA5;
+  line-height: 40px;
+}
+
+
+.toweto_css_header #nv li.a a, #nv li.a a:hover {
+    background:none;
+    color: #ffffff !important;
+	 background-color: #3D5EA5;
+    padding:0px 15px;
+	 line-height: 40px;
+}
+
+.toweto_css_header  #nv li.a {
+ background-color: #4B67A1;
+    background: none;
+    margin-left: 0px;
+    padding-right: 0px;
+	 line-height: 40px;
+	 height: 40px;
+}
+
+ #hd  #plugin_menu{   
+ background-color: #ffffff;  width:auto;    border: 1px solid ##797979;
+    box-shadow:0px; padding: 3px 0px; top:40px !important;}
+
+ /*二级导航*/
+ #nv li.hover a:hover, #nv li.hover a {
+    background:none;
+    background:#3C7394;}
+	
+.h_pop {
+    padding: 5px 0px;
+    z-index: 301;
+	background-color:#ffffff;
+	   border: 1px solid #797979;
+    box-shadow: 0px;
+	color:#ffffff;
+	top:39px !important;
+}	
+.h_pop li a {
+    margin: 0 0 2px;
+	color:#444444;
+	font-size:14px;
+}
+.h_pop li a:hover {
+    background: none repeat scroll 0 0 #3C7394;
+    margin: 0 0 2px;
+	color:#ffffff;
+	font-size:14px;
+}
+ 
+ 
+
+/*头像导航*/
+.toweto_css_header .avt img {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #F2F2F2 #DFDFDF #DFDFDF #F2F2F2;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    height: 24px;
+    padding: 0;
+    width: 24px;
+}
+
+
+
+.toweto_css_header #um {
+    line-height: 2.3;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+.toweto_css_header #um .avt {
+    display: inline;
+    margin-right: 0px;
+}
+
+
+.toweto_css_header #um, #um a{ color: #6C84B8;}
+
+
+
+
+
+
+
+
+
+
+/* 消息*/
+#myprompt span{color:#ff0000}
+#pm_ntc span{color:#ff0000}
+.toweto_css_header .xx{ width:90px; float:left; padding-top:2px;}
+.toweto_css_header .xx a{ float:left;
+font-size:0px;     
+background-image:  url("{STYLEIMGDIR}/tiny_icons.png");
+    background-repeat: no-repeat;
+    display: block;
+    height: 31px;  width: 24px;}
+.toweto_css_header .xx a:hover {
+    background-color: #3C7394;
+}
+
+.toweto_css_header .xx  #fd{   background-position: -1px -64px;}
+.toweto_css_header .xx  #pm_ntc{ background-position: -51px -96px;}
+
+.toweto_css_header .xx  #pm_ntc.new {
+  background-image:  url("{STYLEIMGDIR}/tiny_icons.png");  background-position: -75px -96px;
+}
+
+.toweto_css_header .xx  #myprompt{background-position: -24px -96px}
+.toweto_css_header .xx  #myprompt.new {
+  background-image:  url("{STYLEIMGDIR}/tiny_icons.png");  background-position: -0px -96px;
+}
+.toweto_css_header .xx  span{width:5px;font-size:7px; background-color:#F6552F; color:#ffffff; padding:0px 2px; float:left;margin-left:-3px;}
+
+/*文字类导航*/
+
+.right{ float:right;}
+#tlink {height:40px; float:left;}
+#tlink a{ font-size:12px; color:#ffffff; padding:0 10px;  line-height: 40px;}
+
+/*下拉类*/
+
+
+
+.toweto_css_header .nav_pop li a:hover {
+    background: none repeat scroll 0 0 #E8E9EA;
+    color: #000000 !important;
+	font-weight:lighter;
+}
+
+.ty {height:40px; float:left;}
+.ty a{ font-size:12px; color:#ffffff;  line-height: 40px; padding-left:10px;height:40px;text-decoration:none;}
+
+.ty ul {
+    float: left;
+    padding: 5px 0px;
+    width:130px;
+    z-index: 301;
+	background-color:#ffffff;
+	   border: 1px solid #797979;
+    box-shadow: 0px;
+	color:#ffffff;
+	margin-left:-83px;
+	top:39px !important;
+	text-decoration:none;
+}
+
+.ty ul a{ color:#000000; font-weight:lighter;  line-height:23px;height:23px; }
+
+
+.ty .a {
+  -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #FFFFFF;
+     border: 1px solid #797979;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 1px medium;
+    margin-right: 1px !important;
+    padding-left: 7px;
+    position: relative;
+    z-index: 302;
+	color:#000000;
+	padding-top:5px;
+	padding-bottom:12px;
+}
+
+.ty img{ background:  url("{STYLEIMGDIR}/ico_sidebar.png") no-repeat scroll 0 0 transparent;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+	  margin: 0 5px 0 0;
+    vertical-align: middle;}
+	
+.person_infos {
+    margin: 8px 4px 0;
+    overflow: hidden;
+    padding: 0 0 0 4px;
+}
+.person_infos dt{width:30px; float:left;}
+.person_infos img{width:30px; height:30px;}
+.person_infos dd {
+float:left;
+    color: #595959;
+    line-height: 16px;
+    margin: 0 0 0 5px;
+    width: 75px;
+    word-wrap: break-word;
+}
+.person_infos dd  a{ border:none; padding:0px;}
+.person_infos dd  a:hover{ background-color:#ffffff;}
+.line {
+    background: none repeat scroll 0 0 #E0E0E0;
+    font-size: 0;
+    height: 1px;
+    line-height: 0;
+    margin: 5px 0;
+    padding: 0;
+}
+
+.global_header .layer_topmenu_list 
+    color: #595959;
+    font-size: 12px;
+    width: 75px;
+    word-wrap: break-word;
+}	
+.ico_account {
+	    background-position: 0 -899px !important;
+}
+.ico_template {
+    background-position: 0 -149px !important;
+}
+.ico_versionchoice {
+    background-position: 0 -850px !important;
+}
+.toweto_app{position: absolute; left:50% !important; margin-left:-480px !important;}
+#apps_menu{
+    width:960px;  margin-left: 0px; height:80px; 
+}
+#apps_menu li{ width:60px; float:left; height:48px; padding:5px; margin-bottom:15px;}
+#apps_menu li a{ background:no-repeat scroll 50% 5px transparent; width:60px; float:left; overflow:hidden;  padding:0px;padding-top:48px; text-align:center;   display: block;}
+#apps_menu li a:hover{      background-color: #E5EDF2;
+    color: #336699;
+    text-shadow: none;}
+/*登陆*/
+
+#toweto_css_login{ float：right；}
+
+#toweto_css_login .fastlg {
+float:right;
+padding-top:7px;
+line-height: 24px;
+}
+#toweto_css_login .login_id {
+    background-position: 0 0;
+    height: 16px;
+    padding: 5px 10px 5px 30px;
+    width: 110px;
+}
+#toweto_css_login  .login_pw {
+    background-position: 0 -36px;
+    height: 16px;
+    padding: 5px 10px 5px 30px;
+    width: 110px;
+}
+#toweto_css_login  input, #toweto_css_login  button {
+    background:  url("{STYLEIMGDIR}/login_sprite.png") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #999999;
+    float: left;
+    margin-right: 8px;
+    outline: medium none;
+}
+#toweto_css_login .login_button {
+    background-position: 0 -72px;
+    cursor: pointer;
+    height: 26px;
+    width: 62px;
+}
+#toweto_css_login .register {
+    background:  url("{STYLEIMGDIR}/login_sprite.png") no-repeat scroll 0 -108px transparent;
+    float: left;
+    height: 26px;
+    width: 62px;
+}
+#toweto_css_login .fastlg_fm {
+    border-right: 0 none;
+    margin: 0 0 0 10px !important;
+    padding-right: 0 !important;
+}
+
+#sslct{
+    background: url("static/image/common/style_switch.png") no-repeat scroll 50% 50% transparent;
+    overflow: hidden;
+    text-indent: -9999px;
+    width: 10px;
+}
+

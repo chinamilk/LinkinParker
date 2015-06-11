@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Plugin]]></item>
+	<item id="Version"><![CDATA[X2,X2.5]]></item>
+	<item id="Time"><![CDATA[2012-07-25 19:03]]></item>
+	<item id="From"><![CDATA[迁安热线 (http://www.qxxg.cn/)]]></item>
+	<item id="Data">
+		<item id="plugin">
+			<item id="available"><![CDATA[1]]></item>
+			<item id="adminid"><![CDATA[1]]></item>
+			<item id="name"><![CDATA[虾米音乐贴内点歌]]></item>
+			<item id="identifier"><![CDATA[qarx_music]]></item>
+			<item id="description"><![CDATA[用户可以在发帖时插入虾米音乐，站长可以设定播放器大小、是否自动播放、外观颜色。
+不影响原程序自带的插入Mp3等音乐文件地址功能。发帖搜索音乐音乐可以试听后再插入到贴内。
+用户点歌送祝福,自动发帖到特定版块，收费版功能更多，欢迎购买！
+版块需开启“允许使用多媒体代码”（后台-版块管理-编辑版块-帖子相关）
+用户组需开启“允许使用 [audio] [media] [flash] 等多媒体代码”（用户-用户组-编辑-论坛相关-帖子相关）
+]]></item>
+			<item id="datatables"><![CDATA[]]></item>
+			<item id="directory"><![CDATA[qarx_music/]]></item>
+			<item id="copyright"><![CDATA[迁安热线]]></item>
+			<item id="version"><![CDATA[1.6]]></item>
+			<item id="__modules">
+				<item id="0">
+					<item id="name"><![CDATA[music]]></item>
+					<item id="menu"><![CDATA[]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[11]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="1">
+					<item id="name"><![CDATA[diange]]></item>
+					<item id="menu"><![CDATA[点歌台]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[5]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[1]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+			</item>
+		</item>
+		<item id="version"><![CDATA[X2,X2.5]]></item>
+		<item id="var">
+			<item id="0">
+				<item id="displayorder"><![CDATA[2]]></item>
+				<item id="title"><![CDATA[贴内大播放器宽度]]></item>
+				<item id="description"><![CDATA[插入贴内Flash音乐播放器宽度，只针对选择大播放器有效。默认为380px]]></item>
+				<item id="variable"><![CDATA[playerwidth]]></item>
+				<item id="type"><![CDATA[number]]></item>
+				<item id="value"><![CDATA[380]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="1">
+				<item id="displayorder"><![CDATA[1]]></item>
+				<item id="title"><![CDATA[贴内大播放器是否自动播放]]></item>
+				<item id="description"><![CDATA[只针对大播放器有效]]></item>
+				<item id="variable"><![CDATA[autoplay]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="2">
+				<item id="displayorder"><![CDATA[3]]></item>
+				<item id="title"><![CDATA[大播放器前景色]]></item>
+				<item id="description"><![CDATA[输入 16 进制颜色如 #RRGGBB]]></item>
+				<item id="variable"><![CDATA[mainColor]]></item>
+				<item id="type"><![CDATA[color]]></item>
+				<item id="value"><![CDATA[#FF0000]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="3">
+				<item id="displayorder"><![CDATA[6]]></item>
+				<item id="title"><![CDATA[点歌发布开贴的板块]]></item>
+				<item id="description"><![CDATA[用户点播歌曲后自动发帖的版块！
+如果站长暂时不需点歌功能，本配置及以下配置不填写即可]]></item>
+				<item id="variable"><![CDATA[fidnumber]]></item>
+				<item id="type"><![CDATA[forum]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="4">
+				<item id="displayorder"><![CDATA[4]]></item>
+				<item id="title"><![CDATA[大播放器背景色]]></item>
+				<item id="description"><![CDATA[输入 16 进制颜色如 #RRGGBB
+不填写的话默认为黑色]]></item>
+				<item id="variable"><![CDATA[backColor]]></item>
+				<item id="type"><![CDATA[color]]></item>
+				<item id="value"><![CDATA[#000000]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="5">
+				<item id="displayorder"><![CDATA[7]]></item>
+				<item id="title"><![CDATA[点歌发贴的主题分类typeid]]></item>
+				<item id="description"><![CDATA[请填写点歌自动发布所作的版块的主题分类typeid
+如不清楚作用请留着不要设置.]]></item>
+				<item id="variable"><![CDATA[dgtypeid]]></item>
+				<item id="type"><![CDATA[number]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="6">
+				<item id="displayorder"><![CDATA[0]]></item>
+				<item id="title"><![CDATA[贴内Flash音乐播放器的大小]]></item>
+				<item id="description"><![CDATA[选择大播放器可以设定是否自动播放、自定义宽度、自定义外观（推荐）
+选择小播放器宽257px高33px、不能自动播放 、不能自定义外观]]></item>
+				<item id="variable"><![CDATA[playerbs]]></item>
+				<item id="type"><![CDATA[select]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[1=大播放器
+0=小播放器]]></item>
+			</item>
+			<item id="7">
+				<item id="displayorder"><![CDATA[11]]></item>
+				<item id="title"><![CDATA[禁止点歌的用户组]]></item>
+				<item id="description"><![CDATA[禁止点歌的用户组，选定的用户组不能点歌发布]]></item>
+				<item id="variable"><![CDATA[bangroup]]></item>
+				<item id="type"><![CDATA[groups]]></item>
+				<item id="extra"><![CDATA[]]></item>
+				<item id="__value">
+					<item id="0"><![CDATA[4]]></item>
+					<item id="1"><![CDATA[5]]></item>
+					<item id="2"><![CDATA[6]]></item>
+					<item id="3"><![CDATA[7]]></item>
+					<item id="4"><![CDATA[8]]></item>
+				</item>
+			</item>
+			<item id="8">
+				<item id="displayorder"><![CDATA[9]]></item>
+				<item id="title"><![CDATA[点歌奖惩积分的数值]]></item>
+				<item id="description"><![CDATA[会员点歌发帖时奖惩的积分，填正数则奖励积分，填写负数则扣除积分。如不设定，则按版块设定的积分规则。]]></item>
+				<item id="variable"><![CDATA[kpercredit]]></item>
+				<item id="type"><![CDATA[number]]></item>
+				<item id="value"><![CDATA[-1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="9">
+				<item id="displayorder"><![CDATA[8]]></item>
+				<item id="title"><![CDATA[点歌奖惩积分类型]]></item>
+				<item id="description"><![CDATA[会员点歌发帖时奖惩的积分类型，如不设定，则按版块设定的积分规则]]></item>
+				<item id="variable"><![CDATA[kextcredit]]></item>
+				<item id="type"><![CDATA[extcredit]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="10">
+				<item id="displayorder"><![CDATA[10]]></item>
+				<item id="title"><![CDATA[站长提示和自定广告]]></item>
+				<item id="description"><![CDATA[站长提示和自定广告,显示在虾米音乐点歌台页面，支持html]]></item>
+				<item id="variable"><![CDATA[ad]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[此内容站长可以自行在后台设定，展示提示和广告等，支持html。]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="11">
+				<item id="displayorder"><![CDATA[5]]></item>
+				<item id="title"><![CDATA[贴内是否显示歌曲名演唱者]]></item>
+				<item id="description"><![CDATA[贴内插入虾米音乐时是否显示歌曲名和演唱者
+推荐显示，用户输入省事，有利于帖子收录]]></item>
+				<item id="variable"><![CDATA[dispsname]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+		</item>
+		<item id="language">
+			<item id="scriptlang">
+                                <item id="navtitle"><![CDATA[点歌台]]></item>
+				<item id="diangeorr"><![CDATA[点歌发帖版块未设定，请管理员在后台设定点歌发帖版块后再点歌吧！]]></item>
+				<item id="bangrouptip"><![CDATA[抱歉，您所在的用户组暂时不能点歌，升级用户组后再来试一试吧！]]></item>
+				<item id="dianbowei"><![CDATA[为]]></item>
+				<item id="dianpomusic"><![CDATA[点播了歌曲：]]></item>
+				<item id="dianbocige"><![CDATA[点播此歌]]></item>
+				<item id="dianboOk"><![CDATA[恭喜！您点播的歌曲已发布，现在看看效果吧，请稍候……<br />[ 您可以复制网址，告诉好友来看看吧！ ]]]></item>
+				<item id="creditnotenough"><![CDATA[不足{jifen}，您暂时不能点歌发布。请努力赚取积分后在来吧！]]></item>
+			</item>
+			<item id="templatelang">
+				<item id="name"><![CDATA[虾米音乐点歌台]]></item>
+				<item id="searchtip"><![CDATA[输入想要添加的歌曲名、专辑名、艺人名 可拼音：刘德华-ldh]]></item>
+				<item id="startword"><![CDATA[歌曲]]></item>
+				<item id="searchbtnText"><![CDATA[搜索]]></item>
+				<item id="dibomusicname"><![CDATA[您点播的歌曲：]]></item>
+				<item id="dibomusicnametip"><![CDATA[请试听再点播歌曲]]></item>
+				<item id="Taname"><![CDATA[Ta的名字：]]></item>
+				<item id="Tanametip"><![CDATA[真实姓名\昵称均可]]></item>
+				<item id="toTatext"><![CDATA[对Ta说的话：]]></item>
+				<item id="toTatexttip"><![CDATA[6至100汉字之间]]></item>
+				<item id="yourname"><![CDATA[你的名字: ]]></item>
+				<item id="submitbtntxt"><![CDATA[提交点歌 ]]></item>
+				<item id="copyringht"><![CDATA[<a href="http://addon.discuz.com/?@qarx_music.plugin" target="_blank">下载更新</a>]]></item>
+			</item>
+			<item id="installlang">
+				<item id="idnfo"><![CDATA[安装、升级、卸载脚本用的语言包]]></item>
+			</item>
+		</item>
+		<item id="installfile"><![CDATA[install.php]]></item>
+		<item id="uninstallfile"><![CDATA[uninstall.php]]></item>
+		<item id="upgradefile"><![CDATA[upgrade.php]]></item>
+	<item id="license"><![CDATA[[list]
+[*]本插件版权归属插件作者迁安热线所有.
+[*][color=green]未经插件作者许可,任何人不得以任何形式在任何地方发布/转发原版以及其衍生的修改版.[/color]
+[*][b]插件作者:[/b]迁安热线
+[*][b]作品简介:[/b]使用本插件用户可以在发帖时插入虾米高品质音乐，可以设定播放器大小、是否自动播放、外观颜色自定；发帖搜索音乐可以试听后再插入到贴内。将在前台添加一个点歌台链接，用户点歌送祝福,自动发帖到特定版块。
+[*]如有任何关于使用上的疑问,请至[url]http://www.qaxxg.cn/[/url]提出.
+[*]点歌台演示[url]http://www.qaxxg.cn/plugin.php?id=qarx_music:diange[/url],谢谢捧场咯.
+[*]最后,感谢您使用我们的插件,也希望您能够给我们团队提供更好的意见([url=http://www.qaxxg.cn/]请点击这里[/url]).
+[/list]]]></item>
+<item id="intro"><![CDATA[[list]
+			迁安热线，感谢您安装此插件，本着认真负责的态度
+			遇到任何问题均可至 [url]http://www.qaxxg.cn[/url] 发贴求助！
+
+			支持网站: 迁安热线 [url]http://www.qaxxg.cn/[/url]
+			[color=green]未经作者本人同意，严禁在其他网站发布或传播此插件，请尊重版权意识，走向创新世界！[/color]
+			本插件为免费插件,请勿随意改动任何部分的代码段！自重！
+		[/list]]]></item>
+	</item>
+</root>

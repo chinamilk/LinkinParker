@@ -1,0 +1,35 @@
+
+<?php
+ 
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+$return = <<<EOT
+
+<div id="toweto_taskbar">
+EOT;
+ $return .= <<<EOT
+<link id="toweto_renren" href="source/plugin/toweto_renren/template/images/toweto.css" type="text/css" rel="stylesheet">
+  <div id="toweto_rightbar">
+    <div class="toweto_rightitem" style="cursor: pointer;" onclick="$('toweto_olfriends').style.display='block';" ><a>在线好友($olnum)</a>
+      </div>
+	   <div class="toweto_site"><a  href="home.php?mod=space&do=friend" title="管理好友">O</a></div>
+	   
+	   
+    </div>
+	 <div id="toweto_olfriends" class="toweto_outbox" style="display:none;">
+	  <div class="myop" style="clear:both;"><a  style="cursor: pointer;"  onclick="$('toweto_olfriends').style.display='none';"><img alt="" src="source/plugin/toweto_renren/template/images/no.png"></a></div>
+	  <div class="toweto_frind">
+        <ul id="">
+          $olliststr
+		</ul>
+		</div>
+        <div class="myop" style="clear:both;"><a style="float:left;" href="home.php?mod=spacecp&ac=search"><img alt="" src="source/plugin/toweto_renren/template/images/find.png"></a></div>
+		
+   
+  </div><!-- end toweto_rightbar -->
+  <div id="toweto_middlebar"></div><!-- end toweto_middlebar -->
+</div> 
+
+EOT;
+?>

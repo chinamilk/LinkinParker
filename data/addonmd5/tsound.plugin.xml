@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[tsound.plugin]]></item>
+	<item id="RevisionID"><![CDATA[9798]]></item>
+	<item id="SN"><![CDATA[2013041400gnOCaML8an]]></item>
+	<item id="RevisionDateline"><![CDATA[1356591948]]></item>
+	<item id="Data">
+		<item id="/discuz_plugin_tsound_SC_GBK.xml"><![CDATA[5def0ec20a501ae2c6e6d3251e2eb931]]></item>
+		<item id="/discuz_plugin_tsound_SC_UTF8.xml"><![CDATA[2c934078b39a9e912d9d4944c61b0f0c]]></item>
+		<item id="/hook.class.php"><![CDATA[f1daf6d5029502486d61e4571a580fcc]]></item>
+		<item id="/include/function.inc.php"><![CDATA[d4c7e13e99c4d25fed42d6bc3ac0d4a4]]></item>
+		<item id="/index.html"><![CDATA[d41d8cd98f00b204e9800998ecf8427e]]></item>
+		<item id="/template/images/background.png"><![CDATA[9a513f439f444bbb3d9be134ff4908bd]]></item>
+		<item id="/template/images/cancel_upload_hover.png"><![CDATA[8afd8a2bd7081722329a990457033a78]]></item>
+		<item id="/template/images/cancel_upload_normal.png"><![CDATA[b78fb4986b7f216c59bcb7b5a7695fec]]></item>
+		<item id="/template/images/continue_hover.png"><![CDATA[3df81abbfb8222b11c93a4ab4db7fd8c]]></item>
+		<item id="/template/images/continue_normal.png"><![CDATA[d137f7b7b5030cadc090b6769ea8a789]]></item>
+		<item id="/template/images/dpbg.png"><![CDATA[f1dd8487cd7c7ccc79de7a6fe4c4652b]]></item>
+		<item id="/template/images/LOGO.png"><![CDATA[f4f3fee7b9c67502538e2ca9dd3a2bf9]]></item>
+		<item id="/template/images/noupload.png"><![CDATA[ffc02afcd338f4ae4679572aafdb09f5]]></item>
+		<item id="/template/images/noupload_hover.png"><![CDATA[861e82aa89252b83ec79b87542b633c7]]></item>
+		<item id="/template/images/pause_hover.png"><![CDATA[66e474005ec2c066b5290518c2788f6f]]></item>
+		<item id="/template/images/pause_normal.png"><![CDATA[9a3dcc239813934076beaebfe8cabf23]]></item>
+		<item id="/template/images/play_hover.png"><![CDATA[32dbd25f6b1875c20cb904e95d680cc4]]></item>
+		<item id="/template/images/play_normal.png"><![CDATA[a28f85cafa8828c712627cd92904246f]]></item>
+		<item id="/template/images/record_hover.png"><![CDATA[1deda67966169e7d11645ac1aa1a7bc2]]></item>
+		<item id="/template/images/record_normal.png"><![CDATA[69f9a4477ecd24e36e5ed175f84cd11a]]></item>
+		<item id="/template/images/save_hover.png"><![CDATA[375d2ec881e1568209415c24f983892a]]></item>
+		<item id="/template/images/save_normal.png"><![CDATA[8210e6e52c08274fe4a71078f216c88a]]></item>
+		<item id="/template/images/setting_hover.png"><![CDATA[a560bda602057159fac265a73fa6bce2]]></item>
+		<item id="/template/images/setting_normal.png"><![CDATA[a560bda602057159fac265a73fa6bce2]]></item>
+		<item id="/template/images/stop_play_hover.png"><![CDATA[3c007780ad3ad41d06a59ef7bb58a2e7]]></item>
+		<item id="/template/images/stop_play_normal.png"><![CDATA[144117b22c5a79a7183e9b4a4bfbcf21]]></item>
+		<item id="/template/images/stop_record_hover.png"><![CDATA[afec06819d54d3dc0a4efd508b24e726]]></item>
+		<item id="/template/images/stop_record_normal.png"><![CDATA[eeecfcbe89fe2de2eed42cb2d7bf6601]]></item>
+		<item id="/template/images/style.css"><![CDATA[7194c7407d07ca0c5a118f8547b9cbe8]]></item>
+		<item id="/template/images/tsound_big.png"><![CDATA[ffbded851d388022f3524bc4e9ced8da]]></item>
+		<item id="/template/images/tsound_small.png"><![CDATA[6652306b367bfcf5f3ae567f5eb05f2f]]></item>
+		<item id="/template/images/upload_hover.png"><![CDATA[1bc59369f66ce7311a4bd497532ff188]]></item>
+		<item id="/template/images/upload_normal.png"><![CDATA[5cd6b869772e73a2c871aff3facaf63e]]></item>
+		<item id="/template/index.html"><![CDATA[d41d8cd98f00b204e9800998ecf8427e]]></item>
+		<item id="/template/insert.htm"><![CDATA[e05c1ba26a6e8e708273c6a8c78edecb]]></item>
+		<item id="/template/MicRecord.swf"><![CDATA[599e956f23717f9344b94fb4d31fefba]]></item>
+		<item id="/template/player.swf"><![CDATA[b13106d61b72faec839e9eba4272c0f8]]></item>
+		<item id="/tsound.inc.php"><![CDATA[74b99f14aa7ddb588e4505b543e204d4]]></item>
+	</item>
+</root>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[iwenwen.plugin]]></item>
+	<item id="RevisionID"><![CDATA[6979]]></item>
+	<item id="SN"><![CDATA[2013061310zwYjUF9jFo]]></item>
+	<item id="RevisionDateline"><![CDATA[1365744417]]></item>
+	<item id="Data">
+		<item id="/admin.inc.php"><![CDATA[b3e144211630e230b2cec55d8a6d5696]]></item>
+		<item id="/api.inc.php"><![CDATA[f4abf0a8e879382ba127cc8a2a33996a]]></item>
+		<item id="/check.php"><![CDATA[021bf3c0568a457db1df24975cf85e82]]></item>
+		<item id="/class/api.class.php"><![CDATA[ab78a8e8db350dfd9f07d2581188a53a]]></item>
+		<item id="/class/json.class.php"><![CDATA[20e84414ddf8f6b2f36344cc718fb975]]></item>
+		<item id="/class/util.class.php"><![CDATA[147b7c608d7ca4ced894d9c759115e27]]></item>
+		<item id="/discuz_plugin_iwenwen_SC_GBK.xml"><![CDATA[091dccb84c8af660c81ec6a426ab4088]]></item>
+		<item id="/discuz_plugin_iwenwen_SC_UTF8.xml"><![CDATA[c6cdef263303ff4721b36a827d85b3ed]]></item>
+		<item id="/discuz_plugin_iwenwen_TC_BIG5.xml"><![CDATA[aa3ed053eb428f0f222b2dea146de646]]></item>
+		<item id="/discuz_plugin_iwenwen_TC_UTF8.xml"><![CDATA[4b7c6a2cbb8655d130e1d2ab6543d1df]]></item>
+		<item id="/install.php"><![CDATA[2b2c84310d6171ff68180eff31576056]]></item>
+		<item id="/iwenwen.class.php"><![CDATA[da933f298db007e427c56c6314da6714]]></item>
+		<item id="/template/admincp/config.htm"><![CDATA[1cdad7aac4d7c07806a227d6731ab348]]></item>
+		<item id="/template/avatar.jpg"><![CDATA[7cf2488d3c2afc270d9502ee7daa0803]]></item>
+		<item id="/template/check.htm"><![CDATA[4f6c12db7df968497efbf7f44b337797]]></item>
+		<item id="/tool.inc.php"><![CDATA[909c828800680f43cd86b384ed09ca4f]]></item>
+		<item id="/uninstall.php"><![CDATA[0241e5afff368b87af1747b82e1d7f30]]></item>
+	</item>
+</root>

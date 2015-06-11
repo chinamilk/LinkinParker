@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[clacpp.pack]]></item>
+	<item id="RevisionID"><![CDATA[7953]]></item>
+	<item id="SN"><![CDATA[20130601160y17EFzqdX]]></item>
+	<item id="RevisionDateline"><![CDATA[1352360142]]></item>
+	<item id="Data">
+		<item id="/source/class/secqaa/secqaa_clacpp.php"><![CDATA[54b379712db7461b3685674baa1bfc86]]></item>
+	</item>
+</root>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Plugin]]></item>
+	<item id="Version"><![CDATA[X2.5]]></item>
+	<item id="Time"><![CDATA[2013-04-16 20:25]]></item>
+	<item id="From"><![CDATA[Discuz! Board (http://localhost/discuz/sc_gbk/)]]></item>
+	<item id="Data">
+		<item id="plugin">
+			<item id="available"><![CDATA[1]]></item>
+			<item id="adminid"><![CDATA[1]]></item>
+			<item id="name"><![CDATA[Xdep_板块群组背景]]></item>
+			<item id="identifier"><![CDATA[xdep_boardbackground]]></item>
+			<item id="description"><![CDATA[可以根据板块/群组分类不同设置不同的板块/群组分类背景]]></item>
+			<item id="datatables"><![CDATA[]]></item>
+			<item id="directory"><![CDATA[xdep_boardbackground/]]></item>
+			<item id="copyright"><![CDATA[NightGhost-www.moeac.com]]></item>
+			<item id="version"><![CDATA[v2.4]]></item>
+			<item id="__modules">
+				<item id="0">
+					<item id="name"><![CDATA[gbg]]></item>
+					<item id="menu"><![CDATA[群组背景]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="1">
+					<item id="name"><![CDATA[bg]]></item>
+					<item id="menu"><![CDATA[论坛背景]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="2">
+					<item id="name"><![CDATA[bg]]></item>
+					<item id="menu"><![CDATA[]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[11]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+			</item>
+		</item>
+		<item id="version"><![CDATA[X2.5,X3]]></item>
+		<item id="var">
+			<item id="0">
+				<item id="displayorder"><![CDATA[0]]></item>
+				<item id="title"><![CDATA[支持作者]]></item>
+				<item id="description"><![CDATA[选择“是” 会在最下方增加作者网站连接
+不会对自身网站有任何影响
+可以不开启 不会影响使用~
+全靠自愿哈~]]></item>
+				<item id="variable"><![CDATA[link]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+		</item>
+		<item id="language">
+			<item id="scriptlang">
+				<item id="Setting_add_new"><![CDATA[添加新项目]]></item>
+				<item id="Setting_success"><![CDATA[操作成功！]]></item>
+				<item id="Setting_error"><![CDATA[操作失败:]]></item>
+				<item id="Setting_conf"><![CDATA[<li>板块ID：板块的fid值,请在后台管理-论坛-板块管理中查看[在板块行的版主前面 用灰色字表示的 (fid:*) 星号位置的数字]</li>]]></item>
+				<item id="Setting_cong"><![CDATA[<li>群组ID：群组分类的gid/sgid值,请在群组页面查看url(浏览器地址)中查看,一级群组分类是gid，二级群组分类是sgid,伪静态中默认 group-(数字) 的数字就是ID</li>]]></item>
+				<item id="Setting_con"><![CDATA[<li>背景颜色：使用十六进制表示的颜色值 如(#FFFFFF),请自行输入，颜色值的获取可以使用QQ的ctrl+alt+a 按住ctrl键移动到指定颜色上获取</li><li>背景图片地址：就是图片的地址了,可以使用相对路径和绝对路径如[http://www.moeac.com/static/image/common/logo/logo.jpg][static/image/common/logo/logo.jpg]</li><li>循环:勾选后会自动重复平铺图片</li><li>居中:背景会自动根据浏览器宽度居中</li><li>帖子应用:勾选后将背景作用到帖子</li><li>固定背景:勾选后图片将跟随浏览器滚动</li>]]></item>
+				<item id="Setting_titlef"><![CDATA[设置板块背景]]></item>
+				<item id="Setting_titleg"><![CDATA[设置群组背景]]></item>
+				<item id="Setting_fid"><![CDATA[板块ID]]></item>
+				<item id="Setting_gid"><![CDATA[群组ID]]></item>
+				<item id="Setting_bgcolor"><![CDATA[背景颜色]]></item>
+				<item id="Setting_imgurl"><![CDATA[背景图片地址]]></item>
+				<item id="Setting_xr"><![CDATA[横向循环]]></item>
+				<item id="Setting_yr"><![CDATA[纵向循环]]></item>
+				<item id="Setting_xc"><![CDATA[水平居中]]></item>
+				<item id="Setting_posts"><![CDATA[帖子应用]]></item>
+				<item id="Setting_fixed"><![CDATA[固定背景]]></item>
+				<item id="OK"><![CDATA[确定]]></item>
+			</item>
+		</item>
+		<item id="installfile"><![CDATA[install.php]]></item>
+		<item id="uninstallfile"><![CDATA[uninstall.php]]></item>
+		<item id="upgradefile"><![CDATA[upgrade.php]]></item>
+	</item>
+</root>

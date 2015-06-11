@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[wxd_kuguofm.pack]]></item>
+	<item id="RevisionID"><![CDATA[13842]]></item>
+	<item id="SN"><![CDATA[20130331113eL6x300wh]]></item>
+	<item id="RevisionDateline"><![CDATA[1364378790]]></item>
+	<item id="Data">
+		<item id="/app/kuguofm.htm"><![CDATA[372afdf313c35182b009249683140922]]></item>
+		<item id="/kuguofm.php"><![CDATA[a29cc8c8b5f32f711c455c1b0e668c04]]></item>
+	</item>
+</root>

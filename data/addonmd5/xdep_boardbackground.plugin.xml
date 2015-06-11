@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[xdep_boardbackground.plugin]]></item>
+	<item id="RevisionID"><![CDATA[13716]]></item>
+	<item id="SN"><![CDATA[2013041400oj4y4Iuius]]></item>
+	<item id="RevisionDateline"><![CDATA[1366192348]]></item>
+	<item id="Data">
+		<item id="/bg.class.php"><![CDATA[af83be304b7a0a5355a681f8828793c2]]></item>
+		<item id="/bg.inc.php"><![CDATA[210386e69a63b269424993e57d286447]]></item>
+		<item id="/discuz_plugin_xdep_boardbackground_SC_GBK.xml"><![CDATA[e8e99781e99c204f55169e9926361902]]></item>
+		<item id="/discuz_plugin_xdep_boardbackground_SC_UTF8.xml"><![CDATA[5d45953a5289d3fbbadc7203d55915a4]]></item>
+		<item id="/discuz_plugin_xdep_boardbackground_TC_BIG5.xml"><![CDATA[8f3a0faa182ba66507b6464cfd36bd53]]></item>
+		<item id="/discuz_plugin_xdep_boardbackground_TC_UTF8.xml"><![CDATA[126b45136464d50a72ccc4a832281a01]]></item>
+		<item id="/gbg.inc.php"><![CDATA[0e2b370407b0d3ea7a330fa7ea0ef5ce]]></item>
+		<item id="/install.php"><![CDATA[0997cfa5dbbcdcd31859fd54a33d7606]]></item>
+		<item id="/table/table_bg_setting.php"><![CDATA[c12c521f02d6f076b2a595a723f3fdfc]]></item>
+		<item id="/table/table_gbg_setting.php"><![CDATA[d19d1362135c01e5b2894ae98e5ac4d2]]></item>
+		<item id="/template/header.htm"><![CDATA[abd606b99e1fd415b7e20f819e4efa18]]></item>
+		<item id="/template/index.htm"><![CDATA[d41d8cd98f00b204e9800998ecf8427e]]></item>
+		<item id="/uninstall.php"><![CDATA[f543ad3b57e9252ead21b5ac2efe5abd]]></item>
+		<item id="/upgrade.php"><![CDATA[f0d0eaf9a0b44bd879c61debfb0c1a28]]></item>
+	</item>
+</root>

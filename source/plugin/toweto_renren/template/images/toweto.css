@@ -1,0 +1,73 @@
+#toweto_taskbar{left:10px;right:10px;position: fixed;bottom:0px;top:auto;z-index:99999;_position:absolute;_bottom:auto;_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop, 10)||0)-(parseInt(this.currentStyle.marginBottom, 10)||0)));margin: 0 auto;}
+#toweto_rightbar{float:right; background: url("t1.png") repeat-x scroll 0 0 transparent; line-height:31px; height:31px; border: 1px solid #C8C8C8;	 width:200px;}
+#toweto_rightbar:hover {
+    border-color: #666666;
+}
+#toweto_rightbar .new{font-weight:bold;color:#336699;}
+.toweto_rightitem{float:left;position:relative; 
+    display: inline-block;
+	background: url("wp-base-ico.png") no-repeat scroll 0 0 transparent;
+	background-position: 0 -1104px;
+	padding-left:20px;
+	margin-left:30px;
+
+
+}
+#toweto_taskbar .toweto_titlebar{background:#e5edf2;padding:0 5px;font-weight:bold;height:20px;line-height:20px;}
+#toweto_myapp{left:0px;width:150px;}
+.toweto_outbox{z-index:99999;position:absolute;bottom:33px;background:#fff;border:1px solid #C2D5E3;border-bottom:none;}
+.toweto_outbox ul{margin-top:3px;}
+#toweto_taskbar .myop{padding:0px 0px; height:20px;}
+#toweto_middlebar a{float:left;}
+#toweto_olfriends{width:200px; float:right; right:0px; padding:5px 0px; background-color:#f5f5f5; }
+#toweto_olfriends .myop a{float:left;}
+#toweto_olfriends li{height:20px;line-height:20px;margin:4px 0;}
+#toweto_olfriends .toweto_olicon{float:right;margin:4px;}
+.toweto_olfriends li img{margin:3px 4px;}
+#toweto_olfriends li a:hover{background:#eee;}
+.toweto_site{border-left: 1px solid #C8C8C8;
+    bottom: 0;
+    color: #333333;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    width: 33px;}
+	.toweto_site a{
+	background: url("gear-icons.png") no-repeat scroll center 8px transparent;
+    display: block;
+    font-size: 0;
+    height: 100%;
+    line-height: 30px;
+    width: 100%;}
+	.toweto_frind{ padding:5px 10px; }
+	.toweto_frind a{ font-size:14px; margin-left:5px;}
+	.toweto_frind a img { margin-right:5px;}
+	.back-to {
+    bottom: 35px;
+    position: fixed;
+    right: 10px;
+    width: 50px;
+    z-index: 999;
+}
+.back-to .backtotop {
+    background: url("btt.png") no-repeat scroll 8px -57px #666666;
+    border-radius: 4px 4px 4px 4px;
+    display: block;
+    float: left;
+    height: 50px;
+    margin-bottom: 15px;
+    outline: 0 none;
+    position: relative;
+    text-indent: -9999em;
+    width: 50px;
+}
+.back-to .backtotop .back-tip {
+    left: -10px;
+    position: absolute;
+    top: -31px;
+    visibility: hidden;
+}
+.back-to .backtotop:hover {
+    background-color: #333333;
+    background-position: 8px 13px;
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[wxd_feiji.plugin]]></item>
+	<item id="RevisionID"><![CDATA[13710]]></item>
+	<item id="SN"><![CDATA[2013033112Ll47eeTq47]]></item>
+	<item id="RevisionDateline"><![CDATA[1364262517]]></item>
+	<item id="Data">
+		<item id="/discuz_plugin_wxd_feiji_SC_GBK.xml"><![CDATA[f687cce04eb9bd86ccb8458eece68849]]></item>
+		<item id="/discuz_plugin_wxd_feiji_SC_UTF8.xml"><![CDATA[86546b7fd3515ac7472be43f9be21fa9]]></item>
+		<item id="/discuz_plugin_wxd_feiji_TC_UTF8.xml"><![CDATA[d4e82625afceeeb991d4b2fe186de338]]></item>
+		<item id="/index.htm"><![CDATA[7215ee9c7d9dc229d2921a40e899ec5f]]></item>
+		<item id="/template/index.html"><![CDATA[b48b4a1c9bffaa63d439837c95a103a7]]></item>
+		<item id="/template/wxd_feiji.htm"><![CDATA[b29109e3d21162d75508cd6a200b546f]]></item>
+		<item id="/wxd_feiji.inc.php"><![CDATA[07240ada6619641325f10432f369e6aa]]></item>
+	</item>
+</root>

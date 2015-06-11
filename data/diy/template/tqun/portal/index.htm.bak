@@ -1,0 +1,67 @@
+<!--{subtemplate common/header}-->
+<style id="diy_style" type="text/css">#framesa2CC6 {  border-top:#666666 7px solid !important;border-right:#cccccc 0px solid !important;border-bottom:#cccccc 7px solid !important;border-left:#cccccc 0px solid !important;margin-top:10px !important;}#portal_block_945 {  border-top:#009900 0px solid !important;border-right:#ffff00 1px solid !important;background-image:url(a.jpg) !important;background-repeat:repeat !important;border-bottom:#ffcc00 0px solid !important;border-left:#ffff00 1px solid !important;background-color:#cccccc !important;}#portal_block_946 {  border-top:#cc9933 0px solid !important;border-right:#ffff00 1px solid !important;background-image:none !important;border-bottom:#cc9933 0px solid !important;border-left:#ffff00 1px solid !important;background-color:#cccccc !important;}#portal_block_953 {  border-top:#cc3333 0px solid !important;border-right:#cc3333 1px solid !important;border-bottom:#cc3333 0px solid !important;border-left:#cc3333 1px solid !important;}#portal_block_954 {  border-top:#999933 0px solid !important;border-right:#999933 1px solid !important;border-bottom:#999933 0px solid !important;border-left:#999933 1px solid !important;}#portal_block_955 {  border-top:#009933 0px solid !important;border-right:#ffff00 1px solid !important;background-image:none !important;border-bottom:#009933 0px solid !important;border-left:#ffff00 1px solid !important;background-color:#cccccc !important;}#frame1L2Fq1 {  border-top:#666666 7px solid !important;border-right:transparent 0px solid !important;background-image:none !important;border-bottom:transparent 0px solid !important;border-left:transparent 0px solid !important;background-color:transparent !important;}#framekKLZZi {  border-top:#ff9900 0px solid !important;border-right:#ff9900 0px solid !important;border-bottom:#cccccc 7px solid !important;border-left:#ff9900 0px solid !important;}#portal_block_950 {  background-image:none !important;background-color:transparent !important;}#framedsu23N {  background-image:none !important;background-color:transparent !important;}#framefd99t8 {  background-color:#999999 !important;background-image:none !important;}</style>
+<!--[diy=diy1]--><div id="diy1" class="area"></div><!--[/diy]-->
+<div class="wp">
+    <div class="demo-wrap">
+        <div class="bx-wrapper">
+            <div class="bx-window">
+                <!--[diy=diy30]--><div id="diy30" class="area"></div><!--[/diy]-->
+            </div>
+        </div>
+        <div class="bx-nav"></div>
+        <div class="pager location">
+            <ul class="ul_page">
+                <li pagenum="0" class="current"></li>
+                <li pagenum="3"></li>
+                <li pagenum="6"></li>
+            </ul>
+        </div>
+    </div>
+    <!--头条推荐开始-->
+        <!--[diy=diy31]--><div id="diy31" class="area"></div><!--[/diy]-->
+    <div class="jd_l_b"></div>
+    <!--left内容区域-->
+    <div id="index_l">
+        <!--推荐文章区域-->
+        <div id="topnews">
+            <!--[diy=diy32]--><div id="diy32" class="area"></div><!--[/diy]-->
+        </div>
+        
+        <div class="floor_n">
+            <!--[diy=diy33]--><div id="diy33" class="area"><div id="framesa2CC6" class=" frame move-span cl frame-1"><div id="framesa2CC6_left" class="column frame-1-c"><div id="framesa2CC6_left_temp" class="move-span temp"></div><div id="framecGK8X8" class=" frame move-span cl frame-1"><div id="framecGK8X8_left" class="column frame-1-c"><div id="framecGK8X8_left_temp" class="move-span temp"></div><!--{block/950}--><!--{block/951}--></div></div><!--{block/942}--><div id="framefd99t8" class=" frame move-span cl frame-1"><div id="framefd99t8_left" class="column frame-1-c"><div id="framefd99t8_left_temp" class="move-span temp"></div><!--{block/943}--></div></div></div></div></div><!--[/diy]-->
+        </div>
+        
+    </div> 
+</div>
+
+    <!--右边栏开始-->
+    <div class="arc_r">
+        <div class="doublet_bg">
+            <div class="doublet">
+                <div class="notice_top">
+                    <div class="notice_tit">
+                    
+                        <div class="notice_r">
+                            <span id="bspager" class="ll"></span><span id="bx-prev"></span><span id="bx-next"></span>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <div class="bulletin">
+                    <!--[diy=diy42]--><div id="diy42" class="area"><div id="frame1L2Fq1" class=" frame move-span cl frame-1"><div id="frame1L2Fq1_left" class="column frame-1-c"><div id="frame1L2Fq1_left_temp" class="move-span temp"></div><!--{block/945}--><!--{block/946}--></div></div><div id="framedsu23N" class=" frame move-span cl frame-1"><div id="framedsu23N_left" class="column frame-1-c"><div id="framedsu23N_left_temp" class="move-span temp"></div><!--{block/955}--><!--{block/953}--><!--{block/954}--></div></div><div id="framekKLZZi" class=" frame move-span cl frame-1"><div id="framekKLZZi_left" class="column frame-1-c"><div id="framekKLZZi_left_temp" class="move-span temp"></div></div></div></div><!--[/diy]-->
+                </div>
+            </div>
+        </div>  
+        <div class="cl"></div>
+        <div class="r1_rec">
+             <!--[diy=diy45]--><div id="diy45" class="area"></div><!--[/diy]-->
+        </div>
+    </div>
+
+<div class="cl"></div>
+<div class="friendlink">
+    <b class="text_b">友情链接</b> 
+    <div><!--[diy=diy49]--><div id="diy49" class="area"><div id="frameRn9cXm" class=" frame move-span cl frame-1"><div id="frameRn9cXm_left" class="column frame-1-c"><div id="frameRn9cXm_left_temp" class="move-span temp"></div><!--{block/927}--></div></div></div><!--[/diy]--> </div>
+</div>
+
+<!--{subtemplate common/footer}-->

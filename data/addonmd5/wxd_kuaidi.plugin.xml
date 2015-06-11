@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[wxd_kuaidi.plugin]]></item>
+	<item id="RevisionID"><![CDATA[13713]]></item>
+	<item id="SN"><![CDATA[2013033112C3rnRzN1Li]]></item>
+	<item id="RevisionDateline"><![CDATA[1364360998]]></item>
+	<item id="Data">
+		<item id="/discuz_plugin_wxd_kuaidi_SC_GBK.xml"><![CDATA[b362e1a747f86cc2f45df9e9b5c440af]]></item>
+		<item id="/discuz_plugin_wxd_kuaidi_SC_UTF8.xml"><![CDATA[30cef65c18fca88966d23936393ee9bf]]></item>
+		<item id="/discuz_plugin_wxd_kuaidi_TC_UTF8.xml"><![CDATA[e1747aeb674110720090d64cbd3f6b8c]]></item>
+		<item id="/index.htm"><![CDATA[7215ee9c7d9dc229d2921a40e899ec5f]]></item>
+		<item id="/template/index.html"><![CDATA[01fc38c874262043c831d4382ee94059]]></item>
+		<item id="/template/wxd_kuaidi.htm"><![CDATA[0d596d0732aa37e867f17b57da18a7f9]]></item>
+		<item id="/wxd_kuaidi.inc.php"><![CDATA[0a046520865bfe89ace68737fc5ba8a3]]></item>
+	</item>
+</root>

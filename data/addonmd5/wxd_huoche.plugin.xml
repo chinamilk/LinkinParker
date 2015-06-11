@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[wxd_huoche.plugin]]></item>
+	<item id="RevisionID"><![CDATA[13712]]></item>
+	<item id="SN"><![CDATA[20130331121bSbouXU3y]]></item>
+	<item id="RevisionDateline"><![CDATA[1364205182]]></item>
+	<item id="Data">
+		<item id="/discuz_plugin_wxd_huoche_SC_GBK.xml"><![CDATA[773a338ca26a4f7664c485988294d17d]]></item>
+		<item id="/discuz_plugin_wxd_huoche_SC_UTF8.xml"><![CDATA[85d6779a13b23b6e9420a1195f23c8de]]></item>
+		<item id="/discuz_plugin_wxd_huoche_TC_UTF8.xml"><![CDATA[c91839ef20759ae3d0a34a98529d66a4]]></item>
+		<item id="/index.htm"><![CDATA[7215ee9c7d9dc229d2921a40e899ec5f]]></item>
+		<item id="/template/index.html"><![CDATA[0c8ad4c90dbd3e515365aa1d49c269f1]]></item>
+		<item id="/template/wxd_huoche.htm"><![CDATA[f30cea4a18196744d382bf86471182b3]]></item>
+		<item id="/wxd_huoche.inc.php"><![CDATA[114b996c1739ee8cedb43f64f3f1e47e]]></item>
+	</item>
+</root>

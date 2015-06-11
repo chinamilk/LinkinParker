@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[laoyang_wailianx.plugin]]></item>
+	<item id="RevisionID"><![CDATA[12395]]></item>
+	<item id="SN"><![CDATA[2013041400JFy6Vu2eZ2]]></item>
+	<item id="RevisionDateline"><![CDATA[1362128706]]></item>
+	<item id="Data">
+		<item id="/discuz_plugin_laoyang_wailianx_SC_GBK.xml"><![CDATA[422ca9eb0a67f3b30d9d4cd26d45f333]]></item>
+		<item id="/discuz_plugin_laoyang_wailianx_SC_UTF8.xml"><![CDATA[892e69e8ee0acc370ba7bc9a5ac74914]]></item>
+		<item id="/discuz_plugin_laoyang_wailianx_TC_BIG5.xml"><![CDATA[7a1db573bcef18bab2962f23daa495ad]]></item>
+		<item id="/discuz_plugin_laoyang_wailianx_TC_UTF8.xml"><![CDATA[707f43c65de0fb109ce65655a97d0386]]></item>
+		<item id="/index.html"><![CDATA[d41d8cd98f00b204e9800998ecf8427e]]></item>
+		<item id="/laoyang_wailianx.class.php"><![CDATA[b8f930744a951e848d6c2d9e5e25bc7e]]></item>
+		<item id="/laoyang_wailianx.inc.php"><![CDATA[781d0c4d5970eef7a25d52613f348166]]></item>
+		<item id="/rootdomain.class.php"><![CDATA[0f19551be2b1526cc9648d8a1d4caf74]]></item>
+		<item id="/template/header_common.htm"><![CDATA[76f2358f13f003a8357d58fb4599bedd]]></item>
+		<item id="/template/index.htm"><![CDATA[e44ade6a0496922406695a5762067322]]></item>
+		<item id="/template/youhui.htm"><![CDATA[1568dacdbc3b4f681a535f8b64e1350e]]></item>
+		<item id="/youhui.inc.php"><![CDATA[fb2006e0a0d10b1db7ca3c54bc5fdc90]]></item>
+	</item>
+</root>

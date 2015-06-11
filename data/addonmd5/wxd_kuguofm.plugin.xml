@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[wxd_kuguofm.plugin]]></item>
+	<item id="RevisionID"><![CDATA[14017]]></item>
+	<item id="SN"><![CDATA[2013033111773Ujlkup8]]></item>
+	<item id="RevisionDateline"><![CDATA[1364464392]]></item>
+	<item id="Data">
+		<item id="/discuz_plugin_wxd_kuguofm_SC_GBK.xml"><![CDATA[9cc08818ea1fed6782735637e0b5ab4d]]></item>
+		<item id="/discuz_plugin_wxd_kuguofm_SC_UTF8.xml"><![CDATA[5bd6a8a55e19845f316b24506efdf71a]]></item>
+		<item id="/discuz_plugin_wxd_kuguofm_TC_UTF8.xml"><![CDATA[03f93e6e25a0aeeda13f531c133e4f1d]]></item>
+		<item id="/index.htm"><![CDATA[7215ee9c7d9dc229d2921a40e899ec5f]]></item>
+		<item id="/template/index.html"><![CDATA[ff9426f37c33691b42844b1492f6d39c]]></item>
+		<item id="/template/wxd_kuguofm.htm"><![CDATA[ad344b466dce84ccc189d66691918a0d]]></item>
+		<item id="/wxd_kuguofm.inc.php"><![CDATA[fcac0be66ed5095f3b6347d76ac400c0]]></item>
+	</item>
+</root>

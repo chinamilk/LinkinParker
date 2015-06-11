@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[soso_smilies.plugin]]></item>
+	<item id="RevisionID"><![CDATA[1159]]></item>
+	<item id="SN"><![CDATA[2013033114Q99jmFqcrW]]></item>
+	<item id="RevisionDateline"><![CDATA[1360047130]]></item>
+	<item id="Data">
+		<item id="/discuz_plugin_soso_smilies_SC_GBK.xml"><![CDATA[a90132b6b85dd1a973fe6b68f4607503]]></item>
+		<item id="/discuz_plugin_soso_smilies_SC_UTF8.xml"><![CDATA[491e11c783b01a7d618f9b38e18161b2]]></item>
+		<item id="/discuz_plugin_soso_smilies_TC_BIG5.xml"><![CDATA[522c3216162337b3410d2dd734c2876e]]></item>
+		<item id="/discuz_plugin_soso_smilies_TC_UTF8.xml"><![CDATA[489ca8fda5932d583dc0f442a16c931d]]></item>
+		<item id="/index.htm"><![CDATA[7215ee9c7d9dc229d2921a40e899ec5f]]></item>
+		<item id="/js/index.htm"><![CDATA[7215ee9c7d9dc229d2921a40e899ec5f]]></item>
+		<item id="/js/soso_smilies.js"><![CDATA[cee2524d28eb60641f04b1fdcb92f9b3]]></item>
+		<item id="/soso.class.php"><![CDATA[1a019f1be6bf8c7ac569410df49bf18f]]></item>
+	</item>
+</root>

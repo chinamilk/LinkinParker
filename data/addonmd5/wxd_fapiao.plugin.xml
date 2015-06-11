@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[wxd_fapiao.plugin]]></item>
+	<item id="RevisionID"><![CDATA[13743]]></item>
+	<item id="SN"><![CDATA[2013040212U6qF1P33uh]]></item>
+	<item id="RevisionDateline"><![CDATA[1364284594]]></item>
+	<item id="Data">
+		<item id="/discuz_plugin_wxd_fapiao_SC_GBK.xml"><![CDATA[5b720fa63953bd767cfc395e33e95b50]]></item>
+		<item id="/discuz_plugin_wxd_fapiao_SC_UTF8.xml"><![CDATA[d9beea99b5fc8bbb52e42f8f4413d32d]]></item>
+		<item id="/discuz_plugin_wxd_fapiao_TC_UTF8.xml"><![CDATA[7d9988ac1443dc470e15dc457694e31d]]></item>
+		<item id="/index.htm"><![CDATA[7215ee9c7d9dc229d2921a40e899ec5f]]></item>
+		<item id="/template/index.html"><![CDATA[590e66ae4759799576a4fcd16b9c3280]]></item>
+		<item id="/template/wxd_fapiao.htm"><![CDATA[e4489510184548bf16c81bae017255a2]]></item>
+		<item id="/wxd_fapiao.inc.php"><![CDATA[e62546f1df7204b53600217c09c73e74]]></item>
+	</item>
+</root>

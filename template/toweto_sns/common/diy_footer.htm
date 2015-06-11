@@ -1,0 +1,53 @@
+<div  id="footer">
+	<div id="ft" class="wp cl" style="border:none;" >
+		<div id="flk" class="y" >
+			<p>
+				<!--{loop $_G['setting']['footernavs'] $nav}--><!--{if $nav['available'] && ($nav['type'] && (!$nav['level'] || ($nav['level'] == 1 && $_G['uid']) || ($nav['level'] == 2 && $_G['adminid'] > 0) || ($nav['level'] == 3 && $_G['adminid'] == 1)) ||
+						!$nav['type'] && ($nav['id'] == 'stat' && $_G['group']['allowstatdata'] || $nav['id'] == 'report' && $_G['uid'] || $nav['id'] == 'archiver' || $nav['id'] == 'mobile'))}--><!--{if $nav['id'] == 'mobile' && $_G['setting']['mobile']['allowmobile'] != 1}--><!--{eval continue;}--><!--{/if}-->$nav[code]<span class="pipe">|</span><!--{/if}--><!--{/loop}-->
+						<strong><a href="$_G['setting']['siteurl']" target="_blank">$_G['setting']['sitename']</a></strong>
+				<!--{if $_G['setting']['icp']}-->( <a  href="http://www.miitbeian.gov.cn/" target="_blank">$_G['setting']['icp']</a> )<!--{/if}-->
+				<!--{hook/global_footerlink}-->
+				<!--{if $_G['setting']['statcode']}-->$_G['setting']['statcode']<!--{/if}-->
+				<strong><a  href="http://toweto.com" target="_blank">toweto</a></strong>
+			</p>
+			
+		</div>
+		<div id="frt">
+			<p >Powered by <strong><a  href="http://www.discuz.net" target="_blank">Discuz!</a></strong> <em>$_G['setting']['version']</em><!--{if !empty($_G['setting']['boardlicensed'])}--> <a style="color: #ffffff;" href="http://license.comsenz.com/?pid=1&host=$_SERVER[HTTP_HOST]" target="_blank">Licensed</a><!--{/if}--></p>
+			
+		</div>
+		<!--{eval updatesession();}-->
+		<!--{if $_G['uid'] && $_G['group']['allowinvisible']}-->
+		<script type="text/javascript">
+		var invisiblestatus = '<!--{if $_G['session']['invisible']}-->{lang login_invisible_mode}<!--{else}-->{lang login_normal_mode}<!--{/if}-->';
+		var loginstatusobj = $('loginstatusid');
+		if(loginstatusobj != undefined && loginstatusobj != null) loginstatusobj.innerHTML = invisiblestatus;
+		<!--{/if}-->
+		</script>
+	</div>
+	</div>
+<style>
+#footer {
+        background: none repeat-x scroll 0 0 #3B5998;
+    border-top: 1px solid #CEE1EE;
+	width:100%;
+	float:left;
+	height:40px;
+	overflow:hidden;
+}
+#ft{width:960px;} 
+#footer a {
+    color: #FFFFFF;
+    font-weight: lighter;
+}
+#footer p {
+    color: #FFFFFF;
+    font-weight: lighter;
+}
+#scrolltop {
+    background: url("$_G['style']['styleimgdir']/btt.png") no-repeat scroll 8px -57px #666666;
+    border-radius: 4px 4px 4px 4px;
+    text-indent: -9999em;
+    width: 50px;
+}
+</style>

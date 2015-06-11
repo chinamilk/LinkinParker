@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[wxd_gongjiao.plugin]]></item>
+	<item id="RevisionID"><![CDATA[13920]]></item>
+	<item id="SN"><![CDATA[2013033112dYbhf2gxoL]]></item>
+	<item id="RevisionDateline"><![CDATA[1364452707]]></item>
+	<item id="Data">
+		<item id="/discuz_plugin_wxd_gongjiao_SC_GBK.xml"><![CDATA[40afa2b1b536f71d0fb2db5b44e37fa4]]></item>
+		<item id="/discuz_plugin_wxd_gongjiao_SC_UTF8.xml"><![CDATA[c4baf7b1934fcd0575e77b834c4b8523]]></item>
+		<item id="/discuz_plugin_wxd_gongjiao_TC_UTF8.xml"><![CDATA[baf6c4725455a3ef9bbdb2af64cede79]]></item>
+		<item id="/index.htm"><![CDATA[7215ee9c7d9dc229d2921a40e899ec5f]]></item>
+		<item id="/template/index.html"><![CDATA[8f24ed9ce7f9a25b19ec5e2a839e9266]]></item>
+		<item id="/template/wxd_gongjiao.htm"><![CDATA[8fd199a41ec16963145c83e6c81192c6]]></item>
+		<item id="/wxd_gongjiao.inc.php"><![CDATA[2cc2c2b1e6a310de262da20ec303f6d4]]></item>
+	</item>
+</root>

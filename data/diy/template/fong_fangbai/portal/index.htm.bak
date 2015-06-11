@@ -1,0 +1,7 @@
+<!--{subtemplate common/header}-->
+<style id="diy_style" type="text/css"></style>
+<div class="wp">
+	<!--[diy=diy1]--><div id="diy1" class="area"><div id="frameuKrlL6" class="frame move-span cl frame-1-1"><div class="title frame-title"><span class="titletext">1-1¿ò¼Ü</span></div><div id="frameuKrlL6_left" class="column frame-1-1-l"><div id="frameuKrlL6_left_temp" class="move-span temp"></div><!--{block/3}--></div><div id="frameuKrlL6_center" class="column frame-1-1-r"><div id="frameuKrlL6_center_temp" class="move-span temp"></div></div></div></div><!--[/diy]-->
+</div>
+
+<!--{subtemplate common/footer}-->

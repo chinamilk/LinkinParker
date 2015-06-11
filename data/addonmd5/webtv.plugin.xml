@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[webtv.plugin]]></item>
+	<item id="RevisionID"><![CDATA[13594]]></item>
+	<item id="SN"><![CDATA[20130331124adVDAcfVk]]></item>
+	<item id="RevisionDateline"><![CDATA[1364808569]]></item>
+	<item id="Data">
+		<item id="/discuz_plugin_webtv_SC_GBK.xml"><![CDATA[eb23e6d140cde72437ed68712149da2c]]></item>
+		<item id="/discuz_plugin_webtv_SC_UTF8.xml"><![CDATA[cc342023d300dab925efa30540522d39]]></item>
+		<item id="/discuz_plugin_webtv_TC_UTF8.xml"><![CDATA[35be1fe87937b5d1a764581b70ca49ae]]></item>
+		<item id="/index.htm"><![CDATA[7215ee9c7d9dc229d2921a40e899ec5f]]></item>
+		<item id="/template/index.html"><![CDATA[35b60d96868cff0ba68f9e1a0e533995]]></item>
+		<item id="/template/webtv.htm"><![CDATA[33fe45af5e8cc83ca9a814db84169c97]]></item>
+		<item id="/webtv.inc.php"><![CDATA[ad91b008afb9b613479f16e454c3a5d3]]></item>
+	</item>
+</root>

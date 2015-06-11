@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[club_extend_dmember.pack]]></item>
+	<item id="RevisionID"><![CDATA[6513]]></item>
+	<item id="SN"><![CDATA[201303312187Y3NNA3zz]]></item>
+	<item id="RevisionDateline"><![CDATA[1355474138]]></item>
+	<item id="Data">
+		<item id="/checkavatar.php"><![CDATA[2a020bdb1af29d908ae5cdd71b6334e9]]></item>
+		<item id="/jiaoyou.php"><![CDATA[7b2c9adb52184f320cdb0ccc5e0c3ac4]]></item>
+		<item id="/source/include/cron/dmember_cron.php"><![CDATA[c67263e19cb68a8cee9d66d5542e088f]]></item>
+		<item id="/source/include/cron/dmember_cron_archive.php"><![CDATA[14813576ba10d913d180504ff146d7fc]]></item>
+	</item>
+</root>

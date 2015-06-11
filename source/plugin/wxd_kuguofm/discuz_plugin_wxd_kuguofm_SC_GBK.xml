@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Plugin]]></item>
+	<item id="version"><![CDATA[X1.5,X2,X2.5,X3]]></item>
+	<item id="Time"><![CDATA[2012-04-11 09:09]]></item>
+	<item id="From"><![CDATA[¿á¹·ÒôÀÖµçÌ¨_http://bbs.weixiaoduo.com/kuguofm.php]]></item>
+	<item id="Data">
+		<item id="plugin">
+			<item id="available"><![CDATA[1]]></item>
+			<item id="adminid"><![CDATA[1]]></item>
+			<item id="name"><![CDATA[¿á¹·ÒôÀÖµçÌ¨]]></item>
+			<item id="identifier"><![CDATA[wxd_kuguofm]]></item>
+			<item id="description"><![CDATA[¿á¹·ÒôÀÖµçÌ¨ http://bbs.weixiaoduo.com/kuguofm.php]]></item>
+			<item id="datatables"><![CDATA[]]></item>
+			<item id="directory"><![CDATA[wxd_kuguofm/]]></item>
+			<item id="copyright"><![CDATA[Þ±Ïþ¶äÍøÂç¹¤×÷ÊÒ]]></item>
+			<item id="version"><![CDATA[1.0]]></item>
+			<item id="__modules">
+				<item id="0">
+					<item id="name"><![CDATA[wxd_kuguofm]]></item>
+					<item id="menu"><![CDATA[¿á¹·ÒôÀÖµçÌ¨]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[1]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+			</item>
+		</item>
+		<item id="version"><![CDATA[X1.5,X2,X2.5]]></item>
+	</item>
+</root>

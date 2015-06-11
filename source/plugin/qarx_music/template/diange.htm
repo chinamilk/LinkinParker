@@ -1,0 +1,123 @@
+{subtemplate common/header}
+<div id="pt" class="bm cl">
+				<div class="z">
+			<a href="./" class="nvhm" title="{lang homepage}">$_G[setting][bbname]</a><em>&raquo;</em><a href="plugin.php?id=qarx_music:diange">{lang qarx_music:name}</a><em> &rsaquo; </em>
+		</div>
+	</div>
+<div class="bm cl">$qxiamiad</div>
+    <link type="text/css" rel="stylesheet" href="source/plugin/qarx_music/images/music331.css?{VERHASH}">
+   
+    <div class="cl_frame_bm frame move-span cl frame-1-1" ><div  class="column frame-1-1-l">
+	<div  style="width: 468px; float:right" class="p_pof upf"><div><div id="music_search_bar">
+    <!--{if $mkey}-->
+    <input id="search_input" style="width:390px" value="$mkey"  title="{lang qarx_music:searchtip}" name="" baiduSug="2" class="inp_txt">
+    <!--{else}-->
+    <input id="search_input" style="width:390px" value="{lang qarx_music:startword}"  title="{lang qarx_music:searchtip}" name="" baiduSug="2"    class="inp_txt">
+     <!--{/if}-->
+    <a unselectable="on" onfocus="this.blur()" lowsrc="source/plugin/qarx_music/images/f02332.gif" title="{lang qarx_music:searchbtnText}" id="search_music_bt" href="javascript:void(0)"><button class="pn pnc"><strong>{lang qarx_music:searchbtnText}</strong></button></a><div id="xmmp3play"></div><ul id="music_list" class="music_list"></ul><div id="self_set_pager_ui"><div id="music_pager" class="pages"></div></div></div></div></div></div><div class="column frame-1-1-r" style="width:478px; float:left;background: none repeat scroll 0 0 #FEFEFE;border: 1px solid #DDDDDD; height:402px;">
+<style>
+	.tfm .pt, .tfm .px {
+    margin-right: 3px;
+    width: 235px;
+}
+</style>
+
+<form onsubmit="return validateextra()" action="plugin.php?id=qarx_music:diange" id="postform" autocomplete="off" method="post">
+<div id="postbox">
+<div class="exfm cl">
+<input type="hidden" name="formhash" value="{FORMHASH}">
+<table cellspacing="0" cellpadding="0" class="tfm">
+<tbody><tr>
+<th class="ptm pbm bbda"><span class="rq">*</span>{lang qarx_music:dibomusicname}</th>
+<td class="ptm pbm bbda">
+<div id="select_songname">
+<!--{if $mid}-->
+<input type="text" 0="" value="$mkey"  size="" tabindex="1" class="px" id="typeoption_songname" name="typeoption[songname]" style="background:none repeat scroll 0 0 #E8E8E8" readonly="readonly" >
+<!--{else}-->
+<input type="text" 0="" value=""  size="" tabindex="1" class="px" id="typeoption_songname" name="typeoption[songname]" style="background:none repeat scroll 0 0 #E8E8E8" readonly="readonly" >
+<!--{/if}-->
+</div>
+ </td>
+<td width="150" class="ptm pbm bbda"><span id="checksongname">{lang qarx_music:dibomusicnametip}</span></td>
+</tr>
+<tr>
+<th class="ptm pbm bbda"><span class="rq">*</span>{lang qarx_music:Taname}</th>
+<td class="ptm pbm bbda">
+<div id="select_taname">
+<input type="text" 0="" value="" onblur="checkoption('taname', '1', 'text', '0', '0')" size="" tabindex="1" class="px" id="typeoption_taname" name="typeoption[taname]">
+</div>
+ </td>
+<td width="150" class="ptm pbm bbda"><span id="checktaname">{lang qarx_music:Tanametip}</span></td>
+</tr>
+<tr>
+<th class="ptm pbm bbda"><span class="rq">*</span>{lang qarx_music:toTatext}</th>
+<td class="ptm pbm bbda">
+<div id="select_zhufutext">
+<textarea class="pt" 0="" onblur="checkoption('zhufutext', '1', 'textarea', 0, 12,200)" cols="50" rows="8" id="typeoption_zhufutext" tabindex="1" name="typeoption[zhufutext]"></textarea>
+</div>
+ </td>
+<td width="150" class="ptm pbm bbda"><span id="checkzhufutext">{lang qarx_music:toTatexttip}</span></td>
+</tr>
+<tr>
+<th class="ptm pbm bbda"><span class="rq">*</span>{lang qarx_music:yourname}</th>
+<td class="ptm pbm bbda">
+<div id="select_yourname">
+<input type="text" 0="" value="$_G[username]" onblur="checkoption('yourname', '1', 'text', '0', '0')" size="" tabindex="1" class="px" id="typeoption_yourname" name="typeoption[yourname]">
+</div>
+ </td>
+<td width="150" class="ptm pbm bbda"><span id="checkyourname" >{lang qarx_music:Tanametip}</span></td>
+</tr>
+</tbody></table>
+
+<script reload="1" type="text/javascript">
+var CHECKALLSORT = false;
+function warning(obj, msg) {
+obj.style.display = '';
+obj.innerHTML = '<img src="static/image/common/check_error.gif" width="16" height="16" class="vm" /> ' + msg;
+obj.className = "warning";
+if(CHECKALLSORT) {
+showDialog(msg);
+}
+}
+function validateextra() {
+//CHECKALLSORT = true;
+if(!checkoption('songname', '1', 'text')) {
+return false;
+}
+if(!checkoption('taname', '1', 'text')) {
+return false;
+}
+if(!checkoption('zhufutext', '1', 'textarea',0,12,200)) {
+return false;
+}
+if(!checkoption('yourname', '1', 'text')) {
+return false;
+}
+if(!checkoption('xiamisongid', '1', 'number')) {
+return false;
+}
+return true;
+}
+</script>
+</div>
+
+</div>
+   <div class="mtm mbm pnpost" style="text-align:center">
+<input type="hidden" 0="" value="$mid"  id="typeoption_xiamisongid" name="typeoption[xiamisongid]"  readonly="readonly" >
+<button name="topicsubmit" value="true" class="pn pnc" id="postsubmit" type="submit">
+<span>{lang qarx_music:submitbtntxt}</span>
+</button>
+</div> 
+
+<div  style="text-align:right">{lang qarx_music:copyringht}</div>    </div></div>
+    $xmusicpara
+    <script  src="source/plugin/qarx_music/js/qxiami_diange.js?{VERHASH}"  type="text/javascript" charset="gbk"></script>
+     <script type="text/javascript">searchMusicList(1);</script>
+     <!--{if $mid}-->
+      <script type="text/javascript" charset="gbk">musicPlay($mid,"$mkey");</script>
+     <!--{else}-->
+       <script type="text/javascript">musicPlay(0,"");</script>
+     <!--{/if}-->
+   
+     
+{subtemplate common/footer}

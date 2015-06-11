@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[laoyang_qq_share.plugin]]></item>
+	<item id="RevisionID"><![CDATA[14332]]></item>
+	<item id="SN"><![CDATA[2013041400888nZ9Ewzq]]></item>
+	<item id="RevisionDateline"><![CDATA[1365494245]]></item>
+	<item id="Data">
+		<item id="/discuz_plugin_laoyang_qq_share_SC_GBK.xml"><![CDATA[28967079938a0bbf225fe289d10a3ddc]]></item>
+		<item id="/discuz_plugin_laoyang_qq_share_SC_UTF8.xml"><![CDATA[e20caa9c0f6616ca834318bdb4e31c89]]></item>
+		<item id="/discuz_plugin_laoyang_qq_share_TC_BIG5.xml"><![CDATA[09e1aca7aae2d46e6a9bb7cd6ea9a7f8]]></item>
+		<item id="/discuz_plugin_laoyang_qq_share_TC_UTF8.xml"><![CDATA[3a7b6ab49465725c45ec3e9bfcf12555]]></item>
+		<item id="/index.html"><![CDATA[d41d8cd98f00b204e9800998ecf8427e]]></item>
+		<item id="/laoyang_qq_share.class.php"><![CDATA[45a2fe09c549e8a5aba9d5428bd79a99]]></item>
+		<item id="/template/index.html"><![CDATA[d41d8cd98f00b204e9800998ecf8427e]]></item>
+		<item id="/template/youhui.htm"><![CDATA[1568dacdbc3b4f681a535f8b64e1350e]]></item>
+		<item id="/youhui.inc.php"><![CDATA[f06c13b78a97bd2a0ca2513d40ec61c4]]></item>
+	</item>
+</root>

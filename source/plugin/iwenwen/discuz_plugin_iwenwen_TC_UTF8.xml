@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Plugin]]></item>
+	<item id="Version"><![CDATA[X2.5]]></item>
+	<item id="Time"><![CDATA[2012-06-24 20:13]]></item>
+	<item id="From"><![CDATA[Discuz! Board (http://wenwen.soso.com/)]]></item>
+	<item id="Data">
+		<item id="plugin">
+			<item id="available"><![CDATA[1]]></item>
+			<item id="adminid"><![CDATA[1]]></item>
+			<item id="name"><![CDATA[Iwenwen數據互通]]></item>
+			<item id="identifier"><![CDATA[iwenwen]]></item>
+			<item id="description"><![CDATA[Iwenwen數據互通插件安裝可實現︰1、站點內問題屬性帖同步至搜搜問問顯示，且顯示時每帖均帶有站點logo、簡介、多重回鏈；2、同步的問題屬性帖在問問網友產生答案後，均回流至論壇該問題下；3、問問平台自有問題帖，依站長需求，可按關鍵字匹配分類推送至論壇版塊內，供內容補充，4、站點獲取到的問問問題在論壇內產生的答案可同步到問問展示，且展示時均帶站點logo、簡介、回鏈。配置簡單無需開發，快來體驗吧！]]></item>
+			<item id="datatables"><![CDATA[]]></item>
+			<item id="directory"><![CDATA[iwenwen/]]></item>
+			<item id="copyright"><![CDATA[http://open.wenwen.soso.com/]]></item>
+			<item id="version"><![CDATA[1.4]]></item>
+			<item id="__modules">
+				<item id="0">
+					<item id="name"><![CDATA[iwenwen]]></item>
+					<item id="menu"><![CDATA[]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[11]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="1">
+					<item id="name"><![CDATA[admin]]></item>
+					<item id="menu"><![CDATA[互通規則設置]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+			</item>
+		</item>
+		<item id="version"><![CDATA[X1.5,X2,X2.5,X3]]></item>
+		<item id="installfile"><![CDATA[install.php]]></item>
+		<item id="uninstallfile"><![CDATA[uninstall.php]]></item>
+		<item id="checkfile"><![CDATA[check.php]]></item>
+		<item id="language">
+			<item id="scriptlang">
+				<item id="iwenwen_user"><![CDATA[匿名]]></item>
+				<item id="iwenwen_source_anony"><![CDATA[來自搜搜問問]]></item>
+				<item id="iwenwen_source"><![CDATA[來自搜搜問問-網友]]></item>
+				<item id="readmore"><![CDATA[查看更多詳情]]></item>
+			</item>
+			<item id="installlang">
+				<item id="connect_iwenwen_server_failed"><![CDATA[站點主機訪問iwenwen接口失敗，請檢查服務器網絡是否正常]]></item>
+				<item id="open_cloud"><![CDATA[尊敬的站長︰您的站點還沒有開通雲平台，請先行開通且一並開啟雲平台內縱橫搜索及Iwenwen]]></item>
+				<item id="open_cloudsearch"><![CDATA[尊敬的站長︰您的站點還沒有開通縱橫搜索或縱橫搜索服務異常，<a href="admin.php?action=cloud&operation=applist">請點擊這里開通縱橫搜索或關閉後再次開啟縱橫搜索</a>]]></item>
+				<item id="open_iwenwen"><![CDATA[<h4 class="infotitle2">尊敬的站長︰您的站點還沒有開通Iwenwen，請點擊下面的跳轉鏈接進入下一步</h4><p>&nbsp;</p><p>如有問題可聯系客服QQ︰1002899803</p><p>&nbsp;</p>]]></item>
+				<item id="iwenwen_check_tips_title"><![CDATA[安裝提示]]></item>
+				<item id="table_create_failed"><![CDATA[表格創建失敗，請重試或手動創建]]></item>
+				<item id="iwenwen_appkey"><![CDATA[輸入Iwenwen的公鑰(Appkey)]]></item>
+				<item id="iwenwen_secretkey"><![CDATA[輸入Iwenwen的密鑰(SecretKey)]]></item>
+				<item id="iwenwen_check_tips"><![CDATA[<li>安裝Iwenwen數據回流插件，需填寫您的站點開通Iwenwen後系統匹配的Appkey</li><li><a href="http://wenwen.soso.com/z/ShowMyAppList.htm?sk=1" target="_blank" style="color:red;">請點擊這里查詢您站點的Appkey與Secretkey（請使用開通雲平台的QQ登錄）</a></li><li>如有問題可聯系客服QQ︰1002899803</li>]]></item>
+				<item id="appkey_secret_error"><![CDATA[<font color="red">appkey,secretkey沒有通過驗證</font>]]></item>
+				<item id="appkey_and_secretkey_not_be_null"><![CDATA[appkey,secretkey不能為空,請輸入 ]]></item>
+				<item id="iwenwen_skip_fnames"><![CDATA[站務,版務,版主,廣告,外鏈,鏈接,申請,報到]]></item>
+			</item>
+			<item id="templatelang">
+				<item id="open_iwenwen"><![CDATA[尊敬的站長︰您的站點還沒有開通Iwenwen，請至雲平台縱橫搜索內點擊開啟Iwenwen]]></item>
+				<item id="open_iwenwen_need_audit"><![CDATA[您的Iwenwen還沒有完成審核，暫時規則設置不生效，請等待1-2個工作日]]></item>
+				<item id="open_iwenwen_failed"><![CDATA[您的Iwenwen審核未通過，如有疑問請聯系客服QQ︰1002899803]]></item>
+				<item id="iwenwen_closed"><![CDATA[您的Iwenwen已關閉了，只有開啟iwenwen後才能生效，請點擊開啟iwenwen]]></item>
+				<item id="cloud_connect_error"><![CDATA[與問問開放平台通信失敗，無法設置狀態，請稍後重試]]></item>
+				<item id="iwenwen_user"><![CDATA[匿名]]></item>
+				<item id="question_forums_tips"><![CDATA[選擇全部版塊時，回流問題將由系統匹配至本站適合版塊內；<br/>選擇多個版塊時，回流問題將由系統匹配至所選擇的版塊內；<br/>選擇一個版塊時，回流問題將由系統匹配至此單一版塊內。]]></item>
+				<item id="yes"><![CDATA[開啟]]></item>
+				<item id="no"><![CDATA[關閉]]></item>
+				<item id="all"><![CDATA[全部]]></item>
+				<item id="question_sync"><![CDATA[問題同步]]></item>
+				<item id="question_sync_tips"><![CDATA[<li>Iwenwen審核通過後，您站內的問題屬性帖及回帖會自動同步到問問顯示</li><li>同步數據均展示來源站點LOGO、簡介以及多重回鏈，增加站點曝光、提升站點排名和權重</li><li><a href="http://wenwen.soso.com/z/AppQuestionList.e?sp=0&sp=0&sp={discuzid}" target="_blank">查詢問題同步列表（請使用開通雲平台的QQ登錄）</a></li><li>修改站點展示LOGO、簡介等基本信息請到雲平台>縱橫搜索>Iwenwen內修改提交</li>]]></item>
+				<item id="question_backflow"><![CDATA[問題回流]]></item>
+				<item id="question_backflow_tips"><![CDATA[<li>開啟後，問問將參照站長提交Iwenwen時選擇的分類，推送一定數量的問題至論壇內，供本站網友回答</li><li>網友在論壇內回答後，答案會同步到問問展示，且答案均展示站點LOGO、介紹以及回鏈</li><li>默認問題回流版塊為全選，您可通過點擊去除版塊名稱前的“ˇ”，去除您無需問問問題回流的版塊，提交後生效</li><li>支持站內版塊按關鍵詞回流問題，每框一詞，每詞不超過6字，不要填寫空格或符號，請不要重復填寫相同詞，提交後生效（此項為非必填項）</li><li>填寫關鍵詞，且勾選“ˇ”的版塊，按關鍵詞匹配分類回流問問問題到此版塊內</li><li>未填寫關鍵詞，但勾選“ˇ”的版塊，按站長提交Iwenwen時選擇的分類回流問問問題到此版塊內</li><li>未勾選“ˇ”的版塊，無論是否填寫關鍵詞，均不回流問問問題到此版塊內</li><li><a href="http://wenwen.soso.com/z/AppQuestionList.e?sp=0&sp=1&sp={discuzid}" target="_blank">查看問題回流列表</a></li><li>如有問題可聯系客服QQ︰1002899803</li>]]></item>
+				<item id="question_forums"><![CDATA[問題回流版面]]></item>
+				<item id="keyword_placeholder"><![CDATA[請輸入關鍵字]]></item>
+				<item id="answer_backflow"><![CDATA[答案回流]]></item>
+				<item id="answer_backflow_tips"><![CDATA[<li>開啟後，本站同步至問問的問題帖，在問問產生的答案，將回流至論壇此問題內</li><li><a href="http://wenwen.soso.com/z/AppQuestionList.e?sp=0&sp=0&sp={discuzid}" target="_blank">查看答案回流列表</a></li>]]></item>
+				<item id="iwenwen_ad"><![CDATA[廣告]]></item>
+				<item id="afs_flag"><![CDATA[AFS廣告]]></item>
+				<item id="afc_flag"><![CDATA[AFC廣告]]></item>
+				<item id="force_closed"><![CDATA[<font color="red">您的此項功\能已被Iwenwen管理員關閉，如有問題請與Iwenwen客服聯系。</font>]]></item>
+				<item id="iwenwen_ad_tips"><![CDATA[<li>無論廣告是開啟或關閉狀態,回流數據都將顯示廣告</li>
+				<li>廣告開啟後，本站帖子也將顯示廣告。</li>
+				<li>Iwenwen廣告收入與縱橫搜索廣告一樣，在Discuz雲平台結算。<a href="http://cp.discuz.qq.com/" target="_blank">登錄Discuz雲平台</a></li>
+				]]></item>
+			</item>
+		</item>
+	</item>
+</root>

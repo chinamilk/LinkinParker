@@ -1,0 +1,255 @@
+/**
+
+	所有 IE浏览器适用：	
+	.ie_all .foo { ... }
+	IE6 专用：			.ie6 .foo { ... }
+	IE7 专用：			.ie7 .foo { ... }
+	IE8 专用：			.ie8 .foo { ... }
+	
+**/
+
+#e_chat_slimp{
+	width:150px;
+	height:50px;
+	cursor: pointer;
+	position:fixed;
+	left:15px; 
+	bottom:0px;
+	overflow:hidden;
+	background:url(../../source/plugin/evinm_chat/images/s_chat.png);
+	<!--{if $config['iszhankai'] == '1' || $userset['iszhankai'] == '1'}-->
+	display:none;
+	<!--{/if}-->
+}
+.onlinemembers_slimp {
+	padding-top:30px;
+	padding-left:50px;
+	color:#2E344E;
+}
+#e_chat{
+	<!--{if $config['iszhankai'] == '1'}-->
+	width:524px;
+	height:400px;
+	<!--{/if}-->
+	position:fixed;
+	left:15px; 
+	bottom:0;	
+	overflow:hidden;
+	position: fixed;
+}
+.whdyl {
+	height:0px ;
+	width:0px ;
+}
+.eshow {
+	display:block !important;
+}
+.ehide {
+	display:none !important;
+}
+.pl80 {
+	padding-left:80px;
+}
+.pl20 {
+	padding-left:10px;
+}
+.pr10 {
+	padding-right:10px;
+}
+.left_avatar{
+	width:48px;
+	height:48px;
+	border:1px solid #C1C2C6;
+	position: absolute;
+	top:0px;
+	left:15px;
+	z-index:2;
+	background:#fff;
+	padding:1px;
+}
+.left_body {
+	position: absolute;
+	border:1px solid #C1C2C6;
+	width:378px;
+	height:372px;
+	background:#fff;
+	bottom:0px;
+}
+.body_tools, .body_edit_header {
+	width:100%;
+	height:30px;
+	line-height:30px;
+	border-bottom:1px solid #C1C2C6;
+	background:url(../../source/plugin/evinm_chat/images/chat_tit.gif) repeat-x;
+}
+#loading {
+	margin-top:60px;
+	text-align:center;
+	color:#666;
+	font-size:12px;
+}
+.body_message {
+	width:100%;
+	height:220px;
+	border-bottom:1px solid #C1C2C6;
+}
+.kzside {
+	float:right;
+	width:10px;
+	height:100%;
+}
+.hide_side{
+	background:url(../../source/plugin/evinm_chat/images/hide_side.png);
+}
+.show_side{
+	background:url(../../source/plugin/evinm_chat/images/show_side.png);
+}
+.body_edit_area {
+	padding:8px;	
+}
+.body_edit_header {
+	height:24px;
+	line-height:24px;
+}
+.chart_left {	
+	width:378px;
+	height:100%;
+}
+.chart_right {
+	width:140px;
+	position: absolute;
+	border:1px solid #C1C2C6;	
+	height:372px;
+	background:#fff;
+	bottom:0px;
+	right:4px;
+}
+.listheader  {
+	height:24px;
+	line-height:24px;
+}
+.stbtn {
+	width:60px;
+	height:30px;
+	background:url(../../source/plugin/evinm_chat/images/sb1.gif);
+}
+.stbtn span {
+	display:inline-block;
+	width:50%;
+	height:30px;
+	cursor: pointer;
+	float:left;
+}
+.tssbgo {background:url(../../source/plugin/evinm_chat/images/sb2.gif);}
+.tssbgt {background:url(../../source/plugin/evinm_chat/images/sb3.gif);}
+
+.listheader  li {
+	float:left;
+	width:68px;
+	border:1px solid #fff;
+	text-align:center;
+}
+.listheader li.hover {
+	border-bottom:1px solid #D7D7D8;
+	background:#fafafa;
+}
+.uslist {
+	width:120px;
+	margin:0 10px;
+}
+.uslist li {
+	border:none;
+	height:16px  !important;
+	line-height:16px !important;
+	text-align:left;
+	border-bottom:1px dashed  #CCCCCC;
+	padding:7px 5px !important;
+}
+.uslist li span {
+	display:inline-block;
+	height:12px;
+	padding-bottom:2px;
+}
+.usbox {
+	height:190px;
+	overflow-y:auto ;
+}
+.usboxbtips {
+	height:22px;
+	margin-top:3px;
+	line-height:22px;
+	padding-left:30px;
+}
+.usboxbtips span{
+	display:inline-block;
+	width:16px;
+	height:16px;
+	float:left;
+	margin-top:3px;
+	background:url(../../source/plugin/evinm_chat/images/moreonlines.gif) no-repeat;
+}
+.usboxbad {
+	padding: 6px 1px;
+}
+.sendchat {
+	border:none;
+	margin-top:3px;
+	margin-right:3px;
+	cursor: pointer;
+}
+.boxshadow {
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#B7B8BD,direction=120,strength=4);
+	-moz-box-shadow:0px 0px 10px #B7B8BD;
+	-webkit-box-shadow:0px 0px 10px #B7B8BD;
+	box-shadow:0px 0px 10px #B7B8BD;
+}
+#chatmessage_menu {
+	width:348px;
+}
+.p_pop, .p_pof, .sllt {
+	padding: 4px;
+	border: 1px solid;
+	min-width: 60px;
+	border-color: #DDD;
+	background: #FEFEFE;
+	box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.p_pop li {
+	display: inline;
+}
+.facel img {
+	margin: 5px;
+}
+.nofriendsonline {
+	text-align:center;
+	padding:15px 0;
+}
+.nofriendsonline_ad {
+	padding:5px 0px 0px 2px;
+}
+
+#chatmessagebody {
+	width:358px;
+	height:208px;
+	padding-left:10px;
+	margin-top:6px;
+	margin-bottom:6px;
+	overflow-y:auto ;
+}
+.news-container{
+	height:270px;
+	padding-left:10px;
+	width:360px;
+	overflow:hidden;
+}
+.news-container ul li a{
+	padding-bottom:0px;
+	font-size:12px;
+	height:12px;
+}
+.keytips {
+	padding-top:6px;
+}
+.clearc {
+	margin-right:10px;
+}

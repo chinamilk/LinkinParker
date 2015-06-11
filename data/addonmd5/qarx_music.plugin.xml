@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[qarx_music.plugin]]></item>
+	<item id="RevisionID"><![CDATA[9803]]></item>
+	<item id="SN"><![CDATA[2013033112bmo66gGdbi]]></item>
+	<item id="RevisionDateline"><![CDATA[1356415720]]></item>
+	<item id="Data">
+		<item id="/diange.inc.php"><![CDATA[c7b9264dd3c8b3df80798a1a5dbe80f9]]></item>
+		<item id="/discuz_plugin_qarx_music_SC_GBK.xml"><![CDATA[981f44874ce857df5039d97cb113194c]]></item>
+		<item id="/discuz_plugin_qarx_music_SC_UTF8.xml"><![CDATA[b0b1da056792b81242e1e75c3a9bc5ab]]></item>
+		<item id="/discuz_plugin_qarx_music_TC_BIG5.xml"><![CDATA[5f751cc03fe08cbbe4074d497c1b1819]]></item>
+		<item id="/discuz_plugin_qarx_music_TC_UTF8.xml"><![CDATA[48c8994e6812032b9e64afac2dd2a15e]]></item>
+		<item id="/images/bg_pages.gif"><![CDATA[012a186849516ffc3546d75ba7c672ce]]></item>
+		<item id="/images/f02332.gif"><![CDATA[63186f64d0b40d0e1cc93412993a414f]]></item>
+		<item id="/images/music331.css"><![CDATA[339b9af7c8d94ad6b731a5965d470d76]]></item>
+		<item id="/images/music_none.gif"><![CDATA[1d5fa2b0120efcae8c20608586d829a4]]></item>
+		<item id="/index.htm"><![CDATA[7215ee9c7d9dc229d2921a40e899ec5f]]></item>
+		<item id="/install.php"><![CDATA[735cd6fde9b09d3d93fcfbd7ad15783a]]></item>
+		<item id="/js/qxiami_diange.js"><![CDATA[69381ced42336f575385604fbfcb07be]]></item>
+		<item id="/js/qxiami_music.js"><![CDATA[5bc8ec5363c73a9cd43f9768f20a220c]]></item>
+		<item id="/music.class.php"><![CDATA[c5b68efc45d68335b742b079a3b673d4]]></item>
+		<item id="/template/diange.htm"><![CDATA[badbf32340d9074eb3d523856fd135e5]]></item>
+		<item id="/uninstall.php"><![CDATA[71bc5ed46e58befdadcc634aee3e33d4]]></item>
+		<item id="/upgrade.php"><![CDATA[d198dc67db6089c9c9300a5ab96f40fa]]></item>
+	</item>
+</root>
